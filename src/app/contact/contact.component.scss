@@ -1,0 +1,15 @@
+.hero-img {
+    background-image: url(https://www.dropbox.com/s/q1zbzgwdemizyds/head.jpg?raw=1);
+}
+
+.example-full-width {
+    width: 100%;
+  }
+
+  .tp-container {
+    display: flex;
+    flex-direction: column;
+ }
+ .tp-container > * {
+    width: 100%;
+ }

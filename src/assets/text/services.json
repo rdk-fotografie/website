@@ -1,0 +1,60 @@
+{
+    "title": "Leistungen",
+    "services": {
+        "portraits": {
+            "title": "Portraits",
+            "description": "Lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim ad minim veniam, quis nostrud exercitation ullamco nisi equi.",
+            "included": {
+                "i": "Anreise",
+                "ii": "Shooting",
+                "iii": "Nachbearbeitung",
+                "iv": "Druck"
+            },
+            "price": "150€"
+        },
+        "dog": {
+            "title": "Hundeshooting",
+            "description": "Lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim ad minim veniam, quis nostrud exercitation ullamco nisi equi.",
+            "included": {
+                "i": "Anreise",
+                "ii": "Shooting",
+                "iii": "Nachbearbeitung",
+                "iv": "Druck"
+            },
+            "price": "150€"
+        },
+        "friends": {
+            "title": "Freundeshooting",
+            "description": "Lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim ad minim veniam, quis nostrud exercitation ullamco nisi equi.",
+            "included": {
+                "i": "Anreise",
+                "ii": "Shooting",
+                "iii": "Nachbearbeitung",
+                "iv": "Druck"
+            },
+            "price": "150€"
+        },
+        "family": {
+            "title": "Familienshooting",
+            "description": "Lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim ad minim veniam, quis nostrud exercitation ullamco nisi equi.",
+            "included": {
+                "i": "Anreise",
+                "ii": "Shooting",
+                "iii": "Nachbearbeitung",
+                "iv": "Druck"
+            },
+            "price": "150€"
+        },
+        "couple": {
+            "title": "Paarshooting",
+            "description": "Lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim ad minim veniam, quis nostrud exercitation ullamco nisi equi.",
+            "included": {
+                "i": "Anreise",
+                "ii": "Shooting",
+                "iii": "Nachbearbeitung",
+                "iv": "Druck"
+            },
+            "price": "150€"
+        }
+    }
+}

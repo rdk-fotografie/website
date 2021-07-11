@@ -1,0 +1,111 @@
+<main role="main">
+    <section class="ui-section-hero">
+      <div class="ui-layout-container">
+        <section id="slider" (mouseover)="stopSliderSubscriber()" (mouseout)="startSliderSubscriber()">
+            <input type="radio" name="slider" id="s1" value="s1" [ngModel]="sliderValue" (click)="handleSliderClick(0)">
+            <input type="radio" name="slider" id="s2" value="s2" [ngModel]="sliderValue" (click)="handleSliderClick(1)">
+            <input type="radio" name="slider" id="s3" value="s3" [ngModel]="sliderValue" (click)="handleSliderClick(2)">
+            <input type="radio" name="slider" id="s4" value="s4" [ngModel]="sliderValue" (click)="handleSliderClick(3)">
+            <input type="radio" name="slider" id="s5" value="s5" [ngModel]="sliderValue" (click)="handleSliderClick(4)">
+            <label for="s1" id="slide1" data-rellax-speed="-4">
+                <h1>{{text.diashow.service.title}}</h1>
+                <p>{{text.diashow.service.shortdesc}}</p>
+            </label>
+            <label for="s2" id="slide2">
+                <h1>{{text.diashow.about.title}}</h1>
+                <p>{{text.diashow.about.shortdesc}}</p>
+            </label>
+            <label for="s3" id="slide3">
+                <h1>{{text.diashow.example.title}}</h1>
+                <p>{{text.diashow.example.shortdesc}}</p>
+            </label>
+            <label for="s4" id="slide4">
+                <h1>{{text.diashow.contact.title}}</h1>
+                <p>{{text.diashow.contact.shortdesc}}</p>
+            </label>
+            <label for="s5" id="slide5">
+                <h1>{{text.diashow.social.title}}</h1>
+                <p>{{text.diashow.social.shortdesc}}</p>
+            </label>
+        </section>
+      </div>
+    </section>
+    <section class="ui-section-customer">
+      <div class="ui-layout-container">
+        <div class="ui-section-customer__layout ui-layout-flex">
+          <img src="../../assets/icons/facebook_logo.svg" height="60px" alt="#" class="ui-section-customer--logo">
+          <a href="https://www.instagram.com/rdk.fotografie/" target="_blank"><img src="../../assets/icons/Instagram_logo.svg" height="60px" alt="#" class="ui-section-customer--logo"></a>
+          <img src="../../assets/icons/pinterest_logo.svg" alt="#" class="ui-section-customer--logo">
+        </div>
+      </div>
+    </section>
+    <section class="ui-section-feature">
+      <div class="ui-layout-container">
+        <div class="ui-section-feature__layout ui-layout-grid ui-layout-grid-2">
+          <!-- IMAGE -->
+          <div id="aboutImg" alt="#" class="ui-image-half-left"></div>
+          <!-- FEATURE -->
+          <div>
+            <h2>{{text.about.title}}</h2>
+            <p class="ui-text-intro">{{text.about.description}}</p>
+            <div class="button-wrapper"><button type="button" class="ui-component-button-normal" (click)="navigateToPage(1)">{{text.about.more}}</button></div>
+        </div>
+        </div>
+        <div class="ui-section-feature__layout ui-layout-grid ui-layout-grid-2">
+            <!-- FEATURE -->
+            <div>
+              <h2>{{text.examples.title}}</h2>
+              <p class="ui-text-intro">{{text.examples.description}}</p>
+              <div class="button-wrapper"><button type="button" class="ui-component-button-normal" (click)="navigateToPage(2)">{{text.examples.more}}</button></div>
+            </div>
+            <!-- IMAGE -->
+            <div id="exampleImg" alt="#" class="ui-image-half-right"></div>
+        </div>
+        <div class="ui-section-feature__layout ui-layout-grid ui-layout-grid-2">
+        <!-- IMAGE -->
+          <div id="serviceImg" alt="#" class="ui-image-half-left"></div>
+          <!-- FEATURE -->
+          <div>
+            <h2>{{text.services.title}}</h2>
+            <p class="ui-text-intro">{{text.services.description}}</p>
+            <ul class="ui-component-list ui-component-list-feature ui-layout-grid">
+              <li class="ui-component-list--item ui-component-list--item-check">{{text.services.features.i}}</li>
+              <li class="ui-component-list--item ui-component-list--item-check">{{text.services.features.ii}}</li>
+              <li class="ui-component-list--item ui-component-list--item-check">{{text.services.features.iii}}</li>
+              <li class="ui-component-list--item ui-component-list--item-check">{{text.services.features.iv}}</li>
+            </ul>
+            <div class="button-wrapper"><button type="button" class="ui-component-button-normal" (click)="navigateToPage(3)">{{text.services.more}}</button></div>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+    <section class="ui-section-testimonial">
+      <div class="ui-layout-container">
+        <div class="ui-section-testimonial__layout ui-layout-grid ui-layout-grid-2">
+          <div class="ui-layout-column-4">
+            <img src="https://res.cloudinary.com/uisual/image/upload/assets/icons/avatar.svg" alt="#" class="ui-section-testimonial--avatar">
+            <p class="ui-section-testimonial--quote ui-text-intro">{{text.feedback.i.quote}}</p>
+            <p class="ui-section-testimonial--author"><strong>{{text.feedback.i.name}}</strong>
+          </div>
+          <div class="ui-layout-column-4">
+            <img src="https://res.cloudinary.com/uisual/image/upload/assets/icons/avatar.svg" alt="#" class="ui-section-testimonial--avatar">
+            <p class="ui-section-testimonial--quote ui-text-intro">{{text.feedback.ii.quote}}</p>
+            <p class="ui-section-testimonial--author"><strong>{{text.feedback.ii.name}}</strong>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="ui-section-close">
+      <div class="ui-layout-container">
+        <div class="ui-layout-column-6 ui-layout-column-center">
+          <h2>{{text.interested.head}}</h2>
+          <p class="ui-text-intro">{{text.interested.body}}</p>
+          <!-- CTA -->
+          <div class="ui-component-cta ui-layout-flex">
+            <a href="#" role="link" aria-label="#" class="ui-component-button ui-component-button-normal ui-component-button-primary">{{text.interested.contact}}</a>
+          </div>
+        </div>
+      </div>
+    </section>
+</main>

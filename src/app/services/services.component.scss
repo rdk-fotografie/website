@@ -1,0 +1,39 @@
+.hero-img {
+    background-image: url(https://www.dropbox.com/s/j3qqqi9hnqyu7te/head.jpg?raw=1);
+}
+
+#modelImg {
+    background-image: url(https://www.dropbox.com/s/3y88plg12rgro29/portraits.jpg?raw=1);
+  }
+#dogImg {
+    background-image: url(https://www.dropbox.com/s/zkh4ctdo02by942/dog.jpg?raw=1);
+}
+#coupleImg {
+    background-image: url(https://www.dropbox.com/s/wqga8578nqcd0kc/couple.jpg?raw=1);
+}
+#familyImg {
+    background-image: url(https://www.dropbox.com/s/j5veef8c45t0yev/family.jpg?raw=1);
+}
+#friendsImg {
+    background-image: url(https://www.dropbox.com/s/e0n8aj4nkacpe22/friends.jpg?raw=1);
+}
+
+.price {
+    text-align: center;
+    font-size: var(--ui-typography-h2);
+    font-weight: 700;
+}
+
+.button-wrapper {
+    text-align:center;
+}
+
+.ui-image-half-left {
+    width:24em;
+    height:18em;
+  }
+
+.ui-image-half-right {
+    width:24em;
+    height:18em;
+}

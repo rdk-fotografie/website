@@ -1,0 +1,60 @@
+{
+    "about": {
+        "title": "Über mich",
+        "description": "Lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim ad minim veniam, quis nostrud exercitation ullamco nisi equi.",
+        "more": "Klick für mehr"
+    },
+    "services": {
+        "title": "Leistungen",
+        "description": "Lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim ad minim veniam, quis nostrud exercitation ullamco nisi equi.",
+        "more": "Klick für mehr",
+        "features": {
+            "i": "Anreise",
+            "ii": "Shooting",
+            "iii": "Nachbearbeitung",
+            "iv": "Druck"
+        }
+    },
+    "examples": {
+        "title": "Beispiele",
+        "description": "Lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim ad minim veniam, quis nostrud exercitation ullamco nisi equi.",
+        "more": "Klick für mehr"
+    },
+    "diashow": {
+        "about": {
+            "title": "Über mich",
+            "shortdesc": "orem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+        },
+        "example": {
+            "title": "Beispielfotos",
+            "shortdesc": "sed faucibus turpis in eu mi bibendum neque egestas congue quisque egestas diam in arcu cursus euismod quis viverra nibh cras pulvinar mattis nunc sed blandit libero volutpat sed cras ornare arcu dui vivamus arcu felis bibendum ut tristique et egestas quis ipsum suspendisse ultrices gravida dictum fusce ut placerat"
+        },
+        "service": {
+            "title": "Leistungen",
+            "shortdesc": "pretium vulputate sapien nec sagittis aliquam malesuada bibendum arcu vitae elementum curabitur vitae nunc sed velit dignissim sodales ut eu sem integer vitae justo eget magna fermentum iaculis eu non diam phasellus vestibulum lorem sed risus ultricies tristique nulla aliquet enim tortor at auctor urna nunc id cursus metus aliquam"
+        },
+        "contact": {
+            "title": "Kontakt",
+            "shortdesc": "cursus risus at ultrices mi tempus imperdiet nulla malesuada pellentesque elit eget gravida cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus mauris vitae ultricies leo integer malesuada nunc vel risus commodo viverra maecenas accumsan lacus vel facilisis volutpat est velit egestas dui id ornare arcu odio"
+        },
+        "social": {
+            "title": "Galerie",
+            "shortdesc": "commodo viverra maecenas accumsan lacus vel facilisis volutpat est velit egestas dui id ornare arcu odio ut sem nulla pharetra diam sit amet nisl suscipit adipiscing bibendum est ultricies integer quis auctor elit sed vulputate mi sit amet mauris commodo quis imperdiet massa tincidunt nunc pulvinar sapien et ligula ullamcorper"
+        }
+    },
+    "feedback": {
+        "i": {
+            "quote": "Lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod tempor incididunt labore dolore magna",
+            "name": "John Doe"
+        }, 
+        "ii": {
+            "quote": "Lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod tempor incididunt labore dolore magna",
+            "name": "Jane Doe"
+        }
+    },
+    "interested": {
+        "head": "Interessiert?",
+        "body": "Falls ich dein Interesse geweckt habe, kontaktiere mich gern!",
+        "contact": "Kontakt aufnehmen"
+    }
+}

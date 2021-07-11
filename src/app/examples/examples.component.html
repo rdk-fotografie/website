@@ -1,0 +1,42 @@
+
+
+<div *ngIf="dataLoaded">
+  <main role="main">
+    <div class="container">
+        <section class="background">
+          <div class="content-wrapper">
+            <p class="content-title">{{text.i.title}}</p>
+            <p class="content-subtitle">{{text.i.subtitle}}</p>
+          </div>
+        </section>
+        <section class="background">
+          <div class="content-wrapper">
+            <p class="content-title">{{text.ii.title}}</p>
+            <p class="content-subtitle">{{text.ii.subtitle}}</p>
+          </div>
+        </section>
+        <section class="background">
+          <div class="content-wrapper">
+            <p class="content-title">{{text.iii.title}}</p>
+            <p class="content-subtitle">{{text.iii.subtitle}}</p>
+          </div>
+        </section>
+        <section class="background">
+
+          <img-comparison-slider>
+            <img slot="before" src="https://www.dropbox.com/s/n5yrhkjrj7n8e4y/before1.png?raw=1" />
+            <img slot="after" src="https://www.dropbox.com/s/apsstqsefeelau2/after1.png?raw=1" />
+          </img-comparison-slider>
+        </section>
+
+        <section class="background">
+
+          <img-comparison-slider>
+            <img slot="before" src="https://www.dropbox.com/s/js4zhlenttb5asm/before2.png?raw=1" />
+            <img slot="after" src="https://www.dropbox.com/s/txwhxutogzhdwk0/after2.png?raw=1" />
+          </img-comparison-slider>
+        </section>
+       
+    </div>
+</main>
+</div>
