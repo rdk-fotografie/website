@@ -18,7 +18,7 @@
               <input matInput placeholder="{{text.labels.email}}" pattern="[a-zA-Z0-9.-_]{1,}@[a-zA-Z.-]{2,}[.]{1}[a-zA-Z]{2,}" formControlName="email" required>
             </mat-form-field>
             <mat-form-field appearance = "outline">
-               <mat-select value="concern" required formControlName="concern" placeholder = "{{text.labels.concern}}">
+               <mat-select [(value)]="concern" required formControlName="concern" placeholder = "{{text.labels.concern}}">
                   <mat-option value = "general">{{text.concerns.general}}</mat-option>
                   <mat-option value = "portrait">{{text.concerns.portrait}}</mat-option>
                   <mat-option value = "dog">{{text.concerns.dog}}</mat-option>

@@ -11,7 +11,7 @@ import start from '../../assets/text/start.json';
 export class StartComponent implements OnInit {
 
   sliderValues=["s1","s2","s3","s4","s5"];
-  sliderPages=["#","about","examples","service","#"];
+  sliderPages=["services","about","examples","contact","examples"];
   sliderIndex=0;
   sliderValue = this.sliderValues[this.sliderIndex];
   sliderSubscriber;

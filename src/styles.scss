@@ -364,13 +364,16 @@ div label[for=ui-component-toggle__yearly] {
 .ui-section-header {
   padding-bottom: 1.25rem;
   padding-top: 1.25rem;
+  z-index: 100;
+  background-color: #fff;
+  position: sticky;
 }
 
 .ui-section-header__layout { justify-content: space-between; }
 
 /* LOGO */
 
-.ui-section-header--logo { z-index: 1; }
+.ui-section-header--logo { z-index: 2; }
 
 /* HAMBURGER */
 
@@ -384,7 +387,7 @@ div label[for=ui-component-toggle__yearly] {
   padding-top: .25rem;
   position: relative;
   width: 1.125rem;
-  z-index: 1;
+  z-index: 2;
 }
 
 .ui-section-header--menu-icon::before,
@@ -425,6 +428,7 @@ div label[for=ui-component-toggle__yearly] {
   position: absolute;
   right: 0;
   top: -1rem;
+  z-index:1;
   transition: all 250ms cubic-bezier(.785, .135, .15, .86);
   visibility: hidden;
 }
