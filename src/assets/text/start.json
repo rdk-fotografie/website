@@ -6,13 +6,12 @@
     },
     "services": {
         "title": "Leistungen",
-        "description": "Lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim ad minim veniam, quis nostrud exercitation ullamco nisi equi.",
-        "more": "Klick für mehr",
+        "description": "Hier findest Du eine Bandbreite an Shooting-Paketen. Alle Shootings werden als Basic, Standard und Premium-Paket angebot. Je nach Paketgröße variieren die Preise, Shooting-Dauer und Anzahl an kostenfreien Bildern. In jedem Paket enthalten sind",
         "features": {
-            "i": "Anreise",
-            "ii": "Shooting",
-            "iii": "Nachbearbeitung",
-            "iv": "Druck"
+            "i": "Vorberatung",
+            "ii": "Anreise von 15 km",
+            "iii": "Bildbearbeitung",
+            "iv": "kostenfreie Bilder per Online-Galerie"
         }
     },
     "examples": {
