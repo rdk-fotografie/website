@@ -1,12 +1,12 @@
 {
     "about": {
         "title": "Über mich",
-        "description": "Mein Name ist Franzi und ich komme aus Bad Soden-Salmünster. Ihr wollt wissen wer das süße Kerlchen neben mir ist? Das ist Tuman, mein Schäferhund-Mischling. Er hat in mir die Leidenschaft zum Fotografieren geweckt und inspiriert mich jeden Tag. Yup wir haben deinen Text verloren, sorry.",
+        "description": "Mein Name ist Franzi und ich komme aus Bad Soden-Salmünster. Das kleine süße Kerlchen neben mir ist Tuman, mein Schäferhund-Mischling. Er hat in mir die Leidenschaft zum Fotografieren geweckt und inspiriert mich jeden Tag. Yup wir haben deinen Text verloren, sorry.",
         "more": "Klick für mehr"
     },
     "services": {
         "title": "Leistungen",
-        "description": "Du kannst aus einer Bandbreite an Shooting-Paketen wählen. Alle Shootings werden als Basic, Standard und Premium-Paket angeboten. Je nach Paketgröße variieren die Preise, Shooting-Dauer und Anzahl an kostenfreien Bildern. \n In jedem Paket enthalten sind",
+        "description": "Du kannst aus einer Bandbreite an Shooting-Paketen wählen. Alle Shootings werden als Basic-, Standard- und Premium-Paket angeboten. Je nach Paketgröße variieren die Preise, Shooting-Dauer und Anzahl an kostenfreien Bildern. \n In jedem Paket enthalten sind",
         "features": {
             "i": "Vorberatung",
             "ii": "Anreise von 15 km",
@@ -17,7 +17,7 @@
     },
     "examples": {
         "title": "Beispiele",
-        "description": "Wenn du noch unschlüssig bist, stöbere in meiner Galerie und lass Dich überzeugen. Egal ob Einzelportraits, Hunde-Shootings oder Bilder mit den Liebsten - hier findest du passende Beispielfotos.",
+        "description": "Wenn Du noch unschlüssig bist, stöbere in meiner Galerie und lasse Dich überzeugen. Egal ob Einzelportraits, Hunde-Shootings oder Bilder mit den Liebsten - hier findest Du passende Beispielfotos.",
         "more": "Klick für mehr"
     },
     "diashow": {
@@ -49,7 +49,7 @@
     },
     "interested": {
         "head": "Interessiert?",
-        "body": "Falls ich dein Interesse geweckt habe, kontaktiere mich gern!",
+        "body": "Falls ich Dein Interesse geweckt habe, kontaktiere mich gern!",
         "contact": "Kontakt aufnehmen"
     }
 }
