@@ -4,23 +4,58 @@
         <h1>{{text.title}}</h1>
       </div>
     </section>
+    <section class="ui-section-special">
 
-    <section class="ui-section-feature">
+    <h3 style="text-align:center">{{text.teaser}}</h3>
+    <input (change)="changePackage('basic')" type="radio" name="toggle" id="ui-component-toggle__basic">
+    <input (change)="changePackage('standard')" type="radio" name="toggle" id="ui-component-toggle__standard" checked>
+    <input (change)="changePackage('premium')" type="radio" name="toggle" id="ui-component-toggle__premium">
+    <div class="ui-component-toggle ui-layout-flex">
+      <label for="ui-component-toggle__basic" class="ui-component-toggle--label">{{text.packages.basic}}</label>
+      <label for="ui-component-toggle__standard" class="ui-component-toggle--label">{{text.packages.standard}}</label>
+      <label for="ui-component-toggle__premium" class="ui-component-toggle--label">{{text.packages.premium}}</label>
+    </div>
+    </section>
+    <section class="ui-section-special">
       <div class="ui-layout-container">
         <div class="ui-section-feature__layout ui-layout-grid ui-layout-grid-2">
-          <!-- IMAGE -->
+    <!-- IMAGE -->
           <div id="modelImg" alt="#" class="ui-image-half-left"></div>
           <!-- FEATURE -->
-          <div>
-            <h2>{{text.services.portraits.title}}</h2>
-            <p class="ui-text-intro">{{text.services.portraits.description}}</p>
+          <div *ngIf="package=='basic'">
+            <h2>{{text.services.portraits.basic.title}}</h2>
+            <p class="ui-text-intro">{{text.services.portraits.basic.description}}</p>
             <ul class="ui-component-list ui-component-list-feature ui-layout-grid">
-              <li class="ui-component-list--item ui-component-list--item-check">{{text.services.portraits.included.i}}</li>
-              <li class="ui-component-list--item ui-component-list--item-check">{{text.services.portraits.included.ii}}</li>
-              <li class="ui-component-list--item ui-component-list--item-check">{{text.services.portraits.included.iii}}</li>
-              <li class="ui-component-list--item ui-component-list--item-check">{{text.services.portraits.included.iv}}</li>
+              <li class="ui-component-list--item ui-component-list--item-check">{{text.services.portraits.basic.included.i}}</li>
+              <li class="ui-component-list--item ui-component-list--item-check">{{text.services.portraits.basic.included.ii}}</li>
+              <li class="ui-component-list--item ui-component-list--item-check">{{text.services.portraits.basic.included.iii}}</li>
+              <li class="ui-component-list--item ui-component-list--item-check">{{text.services.portraits.basic.included.iv}}</li>
             </ul>
-            <p class="price">{{text.services.portraits.price}}</p>
+            <p class="price">{{text.services.portraits.basic.price}}</p>
+            <div class="button-wrapper"><button type="button" class="ui-component-button-normal" (click)="navigateToPage('contact', 'portrait')">Hier anfragen</button></div>
+          </div>
+          <div *ngIf="package=='standard'">
+            <h2>{{text.services.portraits.standard.title}}</h2>
+            <p class="ui-text-intro">{{text.services.portraits.standard.description}}</p>
+            <ul class="ui-component-list ui-component-list-feature ui-layout-grid">
+              <li class="ui-component-list--item ui-component-list--item-check">{{text.services.portraits.standard.included.i}}</li>
+              <li class="ui-component-list--item ui-component-list--item-check">{{text.services.portraits.standard.included.ii}}</li>
+              <li class="ui-component-list--item ui-component-list--item-check">{{text.services.portraits.standard.included.iii}}</li>
+              <li class="ui-component-list--item ui-component-list--item-check">{{text.services.portraits.standard.included.iv}}</li>
+            </ul>
+            <p class="price">{{text.services.portraits.standard.price}}</p>
+            <div class="button-wrapper"><button type="button" class="ui-component-button-normal" (click)="navigateToPage('contact', 'portrait')">Hier anfragen</button></div>
+          </div>
+          <div *ngIf="package=='premium'">
+            <h2>{{text.services.portraits.premium.title}}</h2>
+            <p class="ui-text-intro">{{text.services.portraits.premium.description}}</p>
+            <ul class="ui-component-list ui-component-list-feature ui-layout-grid">
+              <li class="ui-component-list--item ui-component-list--item-check">{{text.services.portraits.premium.included.i}}</li>
+              <li class="ui-component-list--item ui-component-list--item-check">{{text.services.portraits.premium.included.ii}}</li>
+              <li class="ui-component-list--item ui-component-list--item-check">{{text.services.portraits.premium.included.iii}}</li>
+              <li class="ui-component-list--item ui-component-list--item-check">{{text.services.portraits.premium.included.iv}}</li>
+            </ul>
+            <p class="price">{{text.services.portraits.premium.price}}</p>
             <div class="button-wrapper"><button type="button" class="ui-component-button-normal" (click)="navigateToPage('contact', 'portrait')">Hier anfragen</button></div>
           </div>
           </div>
@@ -31,16 +66,40 @@
       <div class="ui-layout-container">
         <div class="ui-section-feature__layout ui-layout-grid ui-layout-grid-2">
           <!-- FEATURE -->
-          <div>
-            <h2>{{text.services.dog.title}}</h2>
-            <p class="ui-text-intro">{{text.services.dog.description}}</p>
+          <div *ngIf="package=='basic'">
+            <h2>{{text.services.dog.basic.title}}</h2>
+            <p class="ui-text-intro">{{text.services.dog.basic.description}}</p>
             <ul class="ui-component-list ui-component-list-feature ui-layout-grid">
-              <li class="ui-component-list--item ui-component-list--item-check">{{text.services.dog.included.i}}</li>
-              <li class="ui-component-list--item ui-component-list--item-check">{{text.services.dog.included.ii}}</li>
-              <li class="ui-component-list--item ui-component-list--item-check">{{text.services.dog.included.iii}}</li>
-              <li class="ui-component-list--item ui-component-list--item-check">{{text.services.dog.included.iv}}</li>
+              <li class="ui-component-list--item ui-component-list--item-check">{{text.services.dog.basic.included.i}}</li>
+              <li class="ui-component-list--item ui-component-list--item-check">{{text.services.dog.basic.included.ii}}</li>
+              <li class="ui-component-list--item ui-component-list--item-check">{{text.services.dog.basic.included.iii}}</li>
+              <li class="ui-component-list--item ui-component-list--item-check">{{text.services.dog.basic.included.iv}}</li>
             </ul>
-            <p class="price">{{text.services.dog.price}}</p>
+            <p class="price">{{text.services.dog.basic.price}}</p>
+            <div class="button-wrapper"><button type="button" class="ui-component-button-normal" (click)="navigateToPage('contact', 'dog')">Hier anfragen</button></div>
+          </div>
+          <div *ngIf="package=='standard'">
+            <h2>{{text.services.dog.standard.title}}</h2>
+            <p class="ui-text-intro">{{text.services.dog.standard.description}}</p>
+            <ul class="ui-component-list ui-component-list-feature ui-layout-grid">
+              <li class="ui-component-list--item ui-component-list--item-check">{{text.services.dog.standard.included.i}}</li>
+              <li class="ui-component-list--item ui-component-list--item-check">{{text.services.dog.standard.included.ii}}</li>
+              <li class="ui-component-list--item ui-component-list--item-check">{{text.services.dog.standard.included.iii}}</li>
+              <li class="ui-component-list--item ui-component-list--item-check">{{text.services.dog.standard.included.iv}}</li>
+            </ul>
+            <p class="price">{{text.services.dog.standard.price}}</p>
+            <div class="button-wrapper"><button type="button" class="ui-component-button-normal" (click)="navigateToPage('contact', 'dog')">Hier anfragen</button></div>
+          </div>
+          <div *ngIf="package=='premium'">
+            <h2>{{text.services.dog.premium.title}}</h2>
+            <p class="ui-text-intro">{{text.services.dog.premium.description}}</p>
+            <ul class="ui-component-list ui-component-list-feature ui-layout-grid">
+              <li class="ui-component-list--item ui-component-list--item-check">{{text.services.dog.premium.included.i}}</li>
+              <li class="ui-component-list--item ui-component-list--item-check">{{text.services.dog.premium.included.ii}}</li>
+              <li class="ui-component-list--item ui-component-list--item-check">{{text.services.dog.premium.included.iii}}</li>
+              <li class="ui-component-list--item ui-component-list--item-check">{{text.services.dog.premium.included.iv}}</li>
+            </ul>
+            <p class="price">{{text.services.dog.premium.price}}</p>
             <div class="button-wrapper"><button type="button" class="ui-component-button-normal" (click)="navigateToPage('contact', 'dog')">Hier anfragen</button></div>
           </div>
           <!-- IMAGE -->
@@ -55,16 +114,40 @@
           <!-- IMAGE -->
           <div id="friendsImg" alt="#" class="ui-image-half-left"></div>
           <!-- FEATURE -->
-          <div>
-            <h2>{{text.services.friends.title}}</h2>
-            <p class="ui-text-intro">{{text.services.friends.description}}</p>
+          <div *ngIf="package=='basic'">
+            <h2>{{text.services.soulmate.basic.title}}</h2>
+            <p class="ui-text-intro">{{text.services.soulmate.basic.description}}</p>
             <ul class="ui-component-list ui-component-list-feature ui-layout-grid">
-              <li class="ui-component-list--item ui-component-list--item-check">{{text.services.friends.included.i}}</li>
-              <li class="ui-component-list--item ui-component-list--item-check">{{text.services.friends.included.ii}}</li>
-              <li class="ui-component-list--item ui-component-list--item-check">{{text.services.friends.included.iii}}</li>
-              <li class="ui-component-list--item ui-component-list--item-check">{{text.services.friends.included.iv}}</li>
+              <li class="ui-component-list--item ui-component-list--item-check">{{text.services.soulmate.basic.included.i}}</li>
+              <li class="ui-component-list--item ui-component-list--item-check">{{text.services.soulmate.basic.included.ii}}</li>
+              <li class="ui-component-list--item ui-component-list--item-check">{{text.services.soulmate.basic.included.iii}}</li>
+              <li class="ui-component-list--item ui-component-list--item-check">{{text.services.soulmate.basic.included.iv}}</li>
             </ul>
-            <p class="price">{{text.services.friends.price}}</p>
+            <p class="price">{{text.services.soulmate.basic.price}}</p>
+            <div class="button-wrapper"><button type="button" class="ui-component-button-normal" (click)="navigateToPage('contact', 'friends')">Hier anfragen</button></div>
+          </div>
+          <div *ngIf="package=='standard'">
+            <h2>{{text.services.soulmate.standard.title}}</h2>
+            <p class="ui-text-intro">{{text.services.soulmate.standard.description}}</p>
+            <ul class="ui-component-list ui-component-list-feature ui-layout-grid">
+              <li class="ui-component-list--item ui-component-list--item-check">{{text.services.soulmate.standard.included.i}}</li>
+              <li class="ui-component-list--item ui-component-list--item-check">{{text.services.soulmate.standard.included.ii}}</li>
+              <li class="ui-component-list--item ui-component-list--item-check">{{text.services.soulmate.standard.included.iii}}</li>
+              <li class="ui-component-list--item ui-component-list--item-check">{{text.services.soulmate.standard.included.iv}}</li>
+            </ul>
+            <p class="price">{{text.services.soulmate.standard.price}}</p>
+            <div class="button-wrapper"><button type="button" class="ui-component-button-normal" (click)="navigateToPage('contact', 'friends')">Hier anfragen</button></div>
+          </div>
+          <div *ngIf="package=='premium'">
+            <h2>{{text.services.soulmate.premium.title}}</h2>
+            <p class="ui-text-intro">{{text.services.soulmate.premium.description}}</p>
+            <ul class="ui-component-list ui-component-list-feature ui-layout-grid">
+              <li class="ui-component-list--item ui-component-list--item-check">{{text.services.soulmate.premium.included.i}}</li>
+              <li class="ui-component-list--item ui-component-list--item-check">{{text.services.soulmate.premium.included.ii}}</li>
+              <li class="ui-component-list--item ui-component-list--item-check">{{text.services.soulmate.premium.included.iii}}</li>
+              <li class="ui-component-list--item ui-component-list--item-check">{{text.services.soulmate.premium.included.iv}}</li>
+            </ul>
+            <p class="price">{{text.services.soulmate.premium.price}}</p>
             <div class="button-wrapper"><button type="button" class="ui-component-button-normal" (click)="navigateToPage('contact', 'friends')">Hier anfragen</button></div>
           </div>
         </div>
@@ -75,16 +158,40 @@
       <div class="ui-layout-container">
         <div class="ui-section-feature__layout ui-layout-grid ui-layout-grid-2">
           <!-- FEATURE -->
-          <div>
-            <h2>{{text.services.family.title}}</h2>
-            <p class="ui-text-intro">{{text.services.family.description}}</p>
+          <div *ngIf="package=='basic'">
+            <h2>{{text.services.family.basic.title}}</h2>
+            <p class="ui-text-intro">{{text.services.family.basic.description}}</p>
             <ul class="ui-component-list ui-component-list-feature ui-layout-grid">
-              <li class="ui-component-list--item ui-component-list--item-check">{{text.services.family.included.i}}</li>
-              <li class="ui-component-list--item ui-component-list--item-check">{{text.services.family.included.ii}}</li>
-              <li class="ui-component-list--item ui-component-list--item-check">{{text.services.family.included.iii}}</li>
-              <li class="ui-component-list--item ui-component-list--item-check">{{text.services.family.included.iv}}</li>
+              <li class="ui-component-list--item ui-component-list--item-check">{{text.services.family.basic.included.i}}</li>
+              <li class="ui-component-list--item ui-component-list--item-check">{{text.services.family.basic.included.ii}}</li>
+              <li class="ui-component-list--item ui-component-list--item-check">{{text.services.family.basic.included.iii}}</li>
+              <li class="ui-component-list--item ui-component-list--item-check">{{text.services.family.basic.included.iv}}</li>
             </ul>
-            <p class="price">{{text.services.family.price}}</p>
+            <p class="price">{{text.services.family.basic.price}}</p>
+            <div class="button-wrapper"><button type="button" class="ui-component-button-normal" (click)="navigateToPage('contact', 'family')">Hier anfragen</button></div>
+          </div>
+          <div *ngIf="package=='standard'">
+            <h2>{{text.services.family.standard.title}}</h2>
+            <p class="ui-text-intro">{{text.services.family.standard.description}}</p>
+            <ul class="ui-component-list ui-component-list-feature ui-layout-grid">
+              <li class="ui-component-list--item ui-component-list--item-check">{{text.services.family.standard.included.i}}</li>
+              <li class="ui-component-list--item ui-component-list--item-check">{{text.services.family.standard.included.ii}}</li>
+              <li class="ui-component-list--item ui-component-list--item-check">{{text.services.family.standard.included.iii}}</li>
+              <li class="ui-component-list--item ui-component-list--item-check">{{text.services.family.standard.included.iv}}</li>
+            </ul>
+            <p class="price">{{text.services.family.standard.price}}</p>
+            <div class="button-wrapper"><button type="button" class="ui-component-button-normal" (click)="navigateToPage('contact', 'family')">Hier anfragen</button></div>
+          </div>
+          <div *ngIf="package=='premium'">
+            <h2>{{text.services.family.premium.title}}</h2>
+            <p class="ui-text-intro">{{text.services.family.premium.description}}</p>
+            <ul class="ui-component-list ui-component-list-feature ui-layout-grid">
+              <li class="ui-component-list--item ui-component-list--item-check">{{text.services.family.premium.included.i}}</li>
+              <li class="ui-component-list--item ui-component-list--item-check">{{text.services.family.premium.included.ii}}</li>
+              <li class="ui-component-list--item ui-component-list--item-check">{{text.services.family.premium.included.iii}}</li>
+              <li class="ui-component-list--item ui-component-list--item-check">{{text.services.family.premium.included.iv}}</li>
+            </ul>
+            <p class="price">{{text.services.family.premium.price}}</p>
             <div class="button-wrapper"><button type="button" class="ui-component-button-normal" (click)="navigateToPage('contact', 'family')">Hier anfragen</button></div>
           </div>
           <!-- IMAGE -->
@@ -92,26 +199,8 @@
         </div>
       </div>
     </section>
+    <section class="ui-section-special">
 
-    <section class="ui-section-feature">
-      <div class="ui-layout-container">
-        <div class="ui-section-feature__layout ui-layout-grid ui-layout-grid-2">
-          <!-- IMAGE -->
-          <div id="coupleImg" alt="#" class="ui-image-half-left"></div>
-          <!-- FEATURE -->
-          <div>
-            <h2>{{text.services.couple.title}}</h2>
-            <p class="ui-text-intro">{{text.services.couple.description}}</p>
-            <ul class="ui-component-list ui-component-list-feature ui-layout-grid">
-              <li class="ui-component-list--item ui-component-list--item-check">{{text.services.couple.included.i}}</li>
-              <li class="ui-component-list--item ui-component-list--item-check">{{text.services.couple.included.ii}}</li>
-              <li class="ui-component-list--item ui-component-list--item-check">{{text.services.couple.included.iii}}</li>
-              <li class="ui-component-list--item ui-component-list--item-check">{{text.services.couple.included.iv}}</li>
-            </ul>
-            <p class="price">{{text.services.couple.price}}</p>
-            <div class="button-wrapper"><button type="button" class="ui-component-button-normal" (click)="navigateToPage('contact', 'couple')">Hier anfragen</button></div>
-          </div>
-        </div>
-      </div>
-    </section>
+      <p style="text-align:center">{{text.footer}}</p>
+      </section>
 </main>

@@ -3,6 +3,7 @@
     "labels": {
         "name": "Vollständiger Name",
         "email": "E-Mail Adresse",
+        "package": "Packet",
         "concern": "Anliegen",
         "message": "Nachricht",
         "conditions": "Ich stimme den Datenschutzbestimmungen zu",
@@ -16,6 +17,11 @@
         "couple": "Paarshooting",
         "friends": "Feundeshooting",
         "individual": "Individuelle Anfrage"
+    },
+    "package": {
+        "basic": "Basic",
+        "standard": "Standard",
+        "premium": "Premium"
     },
     "thanks": {
         "title": "Vielen Dank",

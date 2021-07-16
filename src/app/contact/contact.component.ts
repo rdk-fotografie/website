@@ -18,6 +18,7 @@ export class ContactComponent implements OnInit {
 
   formGroup;
   text;
+  package;
   concern;
 
   constructor(private route: ActivatedRoute, private router: Router, private formBuilder: FormBuilder, private http: HttpClient) {
@@ -25,6 +26,7 @@ export class ContactComponent implements OnInit {
       this.formGroup = this.formBuilder.group({
         name: ['', Validators.required], 
         email: ['', Validators.required],
+        package: ['', Validators.required],
         concern: ['', Validators.required],
         message: ['', Validators.required],
         terms: [false, Validators.required]
@@ -35,8 +37,10 @@ export class ContactComponent implements OnInit {
   }
 
   ngOnInit(): void {
+    this.package=this.route.snapshot.queryParamMap.get('package');
     this.concern=this.route.snapshot.queryParamMap.get('concern');
     this.formGroup.controls.concern.setValue(this.concern);
+    this.formGroup.controls.package.setValue(this.package);
   }
 
   onSubmit(value) {

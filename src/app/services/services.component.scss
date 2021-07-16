@@ -1,6 +1,26 @@
 .hero-img {
     background-image: url(https://www.dropbox.com/s/j3qqqi9hnqyu7te/head.jpg?raw=1);
+    margin-bottom:100px;
 }
+
+.ui-section-feature {
+    padding-bottom: 5rem;
+    background-color: var(--ui-color-background-primary);
+    margin-top: 5rem;
+  }
+  
+  .ui-section-feature:nth-child(2n) {
+    padding-bottom: 5rem;
+    background-color: var(--ui-color-background-secondary);
+    margin-top: 5rem;
+}
+
+.ui-section-special {
+    padding-bottom: 5rem;
+    background-color: var(--ui-color-background-primary);
+    margin-top: 5rem;
+}
+
 
 #modelImg {
     background-image: url(https://www.dropbox.com/s/3y88plg12rgro29/portraits.jpg?raw=1);

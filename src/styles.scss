@@ -301,14 +301,20 @@ input[name="toggle"] { display: none; }
   border-radius: var(--ui-radius-button);
   cursor: pointer;
   padding: .5rem .625rem;
+  width:100px;
+  text-align:center;
 }
 
-#ui-component-toggle__monthly:checked ~
-div label[for=ui-component-toggle__monthly],
-#ui-component-toggle__yearly:checked ~
-div label[for=ui-component-toggle__yearly] {
+#ui-component-toggle__basic:checked ~
+div label[for=ui-component-toggle__basic],
+#ui-component-toggle__premium:checked ~
+div label[for=ui-component-toggle__premium],
+#ui-component-toggle__standard:checked ~
+div label[for=ui-component-toggle__standard] {
   background-color: var(--ui-color-background-primary);
   color: var(--ui-color-typography-body);
+  width: 100px;
+  text-align:center;
 }
 
 /*--------------------------------------------------------------
@@ -546,21 +552,6 @@ div label[for=ui-component-toggle__yearly] {
 }
 
 /* AMOUNT */
-
-.ui-component-card--pricing-amount-1::before { content: "$5"; }
-
-#ui-component-toggle__yearly:checked ~ div
-.ui-component-card--pricing-amount-1::before { content: "$3"; }
-
-.ui-component-card--pricing-amount-2::before { content: "$15"; }
-
-#ui-component-toggle__yearly:checked ~ div
-.ui-component-card--pricing-amount-2::before { content: "$13"; }
-
-.ui-component-card--pricing-amount-3::before { content: "$25"; }
-
-#ui-component-toggle__yearly:checked ~ div
-.ui-component-card--pricing-amount-3::before { content: "$23"; }
 
 /* LIST */
 

@@ -10,13 +10,20 @@
         <form [formGroup]="formGroup" (ngSubmit)="onSubmit(formGroup.value)">
           <div class = "tp-container">
             <mat-form-field appearance = "standard">
-              <mat-label>{{text.labels.name}}l</mat-label>
+              <mat-label>{{text.labels.name}}</mat-label>
                <input matInput required formControlName="name" pattern="^[a-zA-ZäÄöÖüÜ -]*">
             </mat-form-field>
             <mat-form-field appearance="fill">
               <mat-label>{{text.labels.email}}</mat-label>
               <input matInput placeholder="{{text.labels.email}}" pattern="[a-zA-Z0-9.-_]{1,}@[a-zA-Z.-]{2,}[.]{1}[a-zA-Z]{2,}" formControlName="email" required>
             </mat-form-field>
+            <mat-form-field appearance = "outline">
+              <mat-select [(value)]="package" required formControlName="package" placeholder = "{{text.labels.package}}">
+                 <mat-option value = "basic">{{text.package.basic}}</mat-option>
+                 <mat-option value = "standard">{{text.package.standard}}</mat-option>
+                 <mat-option value = "premium">{{text.package.premium}}</mat-option>     
+              </mat-select>
+           </mat-form-field>
             <mat-form-field appearance = "outline">
                <mat-select [(value)]="concern" required formControlName="concern" placeholder = "{{text.labels.concern}}">
                   <mat-option value = "general">{{text.concerns.general}}</mat-option>

@@ -9,6 +9,7 @@ import services from '../../assets/text/services.json'
 })
 export class ServicesComponent implements OnInit {
   text;
+  package="standard";
 
   constructor(private router: Router) { }
 
@@ -17,7 +18,11 @@ export class ServicesComponent implements OnInit {
   }
 
   navigateToPage(side, con) {
-    this.router.navigate([side], { queryParams: { concern: con }});
+    this.router.navigate([side], { queryParams: { concern: con, package: this.package }});
+  }
+  
+  changePackage(value) {
+    this.package=value;
   }
 
 }
