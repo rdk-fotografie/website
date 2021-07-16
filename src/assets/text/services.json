@@ -1,7 +1,7 @@
 {
     "title": "Leistungen",
     "teaser": "Hast Du Lust deine Lieblingsmomente festzuhalten? Dann wähle jetzt aus individuellen Shooting-Paketen zu Deinem Wunschpreis.",
-    "footer": "Bei Anfahrten über 15 km erfolgt ein Aufschlag von 0,30 € für jeden weiteren Kilometer. Weitere Bilder sind zu den kostenfreien Bildern der Parkete gegen einen Aufpreis hinzubuchbar",
+    "footer": "Bei Anfahrten über 15 km erfolgt ein Aufschlag von 0,30 € für jeden weiteren Kilometer. Weitere Bilder sind zu den kostenfreien Bildern der Parkete gegen einen Aufpreis hinzubuchbar.",
     "packages": {
         "basic": "Basic",
         "standard": "Standard",
@@ -81,7 +81,7 @@
         "soulmate": {
             "basic": {
                 "title": "Our little Family",
-                "description": "Ihr könnt Euer Familienglück gar nicht in Worte fassen? Bilder sagen mehr als 1000 Worte. <br> Ein Shooting für 3 Personen, jede weitere Person 15,00 €",
+                "description": "Ihr könnt Euer Familienglück gar nicht in Worte fassen? Bilder sagen mehr als 1000 Worte. Ein Shooting für 3 Personen, jede weitere Person 15,00 €",
                 "included": {
                     "i": "Vorberatung",
                     "ii": "Anfahrt von 15 km",
