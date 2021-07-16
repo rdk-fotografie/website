@@ -1,7 +1,7 @@
 {
     "title": "Leistungen",
-    "teaser": "Haben wir dein Interese geweckt? Wähle jetzt aus...",
-    "footer": "Anreise größer bla",
+    "teaser": "Hast Du Lust deine Lieblingsmomente festzuhalten? Dann wähle jetzt aus individuellen Shooting-Paketen zu Deinem Wunschpreis.",
+    "footer": "Bei Anfahrten über 15 km erfolgt ein Aufschlag von 0,30 € für jeden weiteren Kilometer. Weitere Bilder sind zu den kostenfreien Bildern der Parkete gegen einen Aufpreis hinzubuchbar",
     "packages": {
         "basic": "Basic",
         "standard": "Standard",
@@ -10,142 +10,142 @@
     "services": {
         "portraits": {
             "basic": {
-                "title": "Portraits",
-                "description": "Lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim ad minim veniam, quis nostrud exercitation ullamco nisi equi.",
+                "title": "Just Me",
+                "description": "Du möchtest schöne Einzelportraits von Dir? Dann ist dieses Paket genau das Richtige für dich!",
                 "included": {
-                    "i": "Anreise",
-                    "ii": "Shooting",
-                    "iii": "Nachbearbeitung",
-                    "iv": "Druck"
+                    "i": "Vorberatung",
+                    "ii": "Anfahrt von 15 km",
+                    "iii": "30-60 Minuten Shooting",
+                    "iv": "5 bearbeitete Bilder"
                 },
-                "price": "150€"
+                "price": "60,00 €"
             },
             "standard": {
-                "title": "Portraitss",
-                "description": "Lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim ad minim veniam, quis nostrud exercitation ullamco nisi equi.",
+                 "title": "Just Me",
+                "description": "Du möchtest schöne Einzelportraits von Dir? Dann ist dieses Paket genau das Richtige für dich!",
                 "included": {
-                    "i": "Anreise",
-                    "ii": "Shooting",
-                    "iii": "Nachbearbeitung",
-                    "iv": "Druck"
+                    "i": "Vorberatung",
+                    "ii": "Anfahrt von 15 km",
+                    "iii": "90 Minuten Shooting",
+                    "iv": "15 bearbeitete Bilder"
                 },
-                "price": "150€"
+                "price": "100,00 €"
             },
             "premium": {
-                "title": "Portraitsss",
-                "description": "Lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim ad minim veniam, quis nostrud exercitation ullamco nisi equi.",
+                 "title": "Just Me",
+                "description": "Du möchtest schöne Einzelportraits von Dir? Dann ist dieses Paket genau das Richtige für dich!",
                 "included": {
-                    "i": "Anreise",
-                    "ii": "Shooting",
-                    "iii": "Nachbearbeitung",
-                    "iv": "Druck"
+                    "i": "Vorberatung",
+                    "ii": "Anfahrt von 15 km",
+                    "iii": "90 Minuten Shooting",
+                    "iv": "30 bearbeitete Bilder"
                 },
-                "price": "150€"
+                "price": "150,00 €"
             }
         },
         "dog": {
             "basic": {
-                "title": "Hundeshooting",
-                "description": "Lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim ad minim veniam, quis nostrud exercitation ullamco nisi equi.",
+                "title": "Soulmates",
+                "description": "Ob Freunde, Partner oder Geschwister - Ein Shooting zu zweit lohnt sich immer!",
                 "included": {
-                    "i": "Anreise",
-                    "ii": "Shooting",
-                    "iii": "Nachbearbeitung",
-                    "iv": "Druck"
+                    "i": "Vorberatung",
+                    "ii": "Anfahrt von 15 km",
+                    "iii": "30-60 Minuten Shooting",
+                    "iv": "8 bearbeitete Bilder"
                 },
-                "price": "150€"
+                "price": "85,00 €"
             },
             "standard": {
-                "title": "Hundeshooting",
-                "description": "Lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim ad minim veniam, quis nostrud exercitation ullamco nisi equi.",
+                 "title": "Soulmates",
+                "description": "Ob Freunde, Partner oder Geschwister - Ein Shooting zu zweit lohnt sich immer!",
                 "included": {
-                    "i": "Anreise",
-                    "ii": "Shooting",
-                    "iii": "Nachbearbeitung",
-                    "iv": "Druck"
+                    "i": "Vorberatung",
+                    "ii": "Anfahrt von 15 km",
+                    "iii": "90 Minuten Shooting",
+                    "iv": "30 bearbeitete Bilder"
                 },
-                "price": "150€"
+                "price": "200,00 €"
             },
             "premium": {
-                "title": "Hundeshooting",
-                "description": "Lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim ad minim veniam, quis nostrud exercitation ullamco nisi equi.",
+                "title": "Soulmates",
+                "description": "Ob Freunde, Partner oder Geschwister - Ein Shooting zu zweit lohnt sich immer!",
                 "included": {
-                    "i": "Anreise",
-                    "ii": "Shooting",
-                    "iii": "Nachbearbeitung",
-                    "iv": "Druck"
+                    "i": "Vorberatung",
+                    "ii": "Anfahrt von 15 km",
+                    "iii": "90 Minuten Shooting",
+                    "iv": "50 bearbeitete Bilder"
                 },
-                "price": "150€"
+                "price": "250,00 €"
             }
         },
         "soulmate": {
             "basic": {
-                "title": "Soulmate",
-                "description": "Lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim ad minim veniam, quis nostrud exercitation ullamco nisi equi.",
+                "title": "Our little Family",
+                "description": "Ihr könnt Euer Familienglück gar nicht in Worte fassen? Bilder sagen mehr als 1000 Worte. <br> Ein Shooting für 3 Personen, jede weitere Person 15,00 €",
                 "included": {
-                    "i": "Anreise",
-                    "ii": "Shooting",
-                    "iii": "Nachbearbeitung",
-                    "iv": "Druck"
+                    "i": "Vorberatung",
+                    "ii": "Anfahrt von 15 km",
+                    "iii": "30-60 Minuten Shooting",
+                    "iv": "8 bearbeitete Bilder"
                 },
-                "price": "150€"
+                "price": "100,00 €"
             },
             "standard": {
-                "title": "Soulmate",
-                "description": "Lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim ad minim veniam, quis nostrud exercitation ullamco nisi equi.",
+                "title": "Our little Family",
+                "description": "Ihr könnt Euer Familienglück gar nicht in Worte fassen? Bilder sagen mehr als 1000 Worte. Ein Shooting für 3 Personen, jede weitere Person 15,00 €",
                 "included": {
-                    "i": "Anreise",
-                    "ii": "Shooting",
-                    "iii": "Nachbearbeitung",
-                    "iv": "Druck"
+                    "i": "Vorberatung",
+                    "ii": "Anfahrt von 15 km",
+                    "iii": "90 Minuten Shooting",
+                    "iv": "30 bearbeitete Bilder"
                 },
-                "price": "150€"
+                "price": "250,00 €"
             },
             "premium": {
-                "title": "Soulmate",
-                "description": "Lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim ad minim veniam, quis nostrud exercitation ullamco nisi equi.",
+                  "title": "Our little Family",
+                "description": "Ihr könnt Euer Familienglück gar nicht in Worte fassen? Bilder sagen mehr als 1000 Worte. Ein Shooting für 3 Personen, jede weitere Person 15,00 €",
                 "included": {
-                    "i": "Anreise",
-                    "ii": "Shooting",
-                    "iii": "Nachbearbeitung",
-                    "iv": "Druck"
+                    "i": "Vorberatung",
+                    "ii": "Anfahrt von 15 km",
+                    "iii": "90 Minuten Shooting",
+                    "iv": "50 bearbeitete Bilder"
                 },
-                "price": "150€"
+                "price": "300,00 €"
             }
         },
         "family": {
             "basic": {
-                "title": "Familienshooting",
-                "description": "Lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim ad minim veniam, quis nostrud exercitation ullamco nisi equi.",
+                "title": "Four Paws",
+                "description": "Für gewöhnlich ist Dein Vierbeiner der Mittelpunkt in Deinem Leben, heute ist er der Mittelpunkt im Shooting",
                 "included": {
-                    "i": "Anreise",
-                    "ii": "Shooting",
-                    "iii": "Nachbearbeitung",
-                    "iv": "Druck"
+                    "i": "Vorberatung",
+                    "ii": "Anfahrt von 15 km",
+                    "iii": "30-60 Minuten Shooting",
+                    "iv": "3 bearbeitete Bilder"
                 },
-                "price": "150€"
+                "price": "60,00 €"
             },
             "standard": {
-                "title": "Familienshooting",
-                "description": "Lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim ad minim veniam, quis nostrud exercitation ullamco nisi equi.",
+               "title": "Four Paws",
+                "description": "Für gewöhnlich ist Dein Hund der Mittelpunkt in Deinem Leben, heute ist er der Mittelpunkt im Shooting",
                 "included": {
-                    "i": "Anreise",
-                    "ii": "Shooting",
-                    "iii": "Nachbearbeitung",
-                    "iv": "Druck"
+                    "i": "Vorberatung",
+                    "ii": "Anfahrt von 15 km",
+                    "iii": "90 Minuten Shooting",
+                    "iv": "10 bearbeitete Bilder"
                 },
-                "price": "150€"
+                "price": "100,00 €"
             },
             "premium": {
-                "title": "Familienshooting",
-                "description": "Lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim ad minim veniam, quis nostrud exercitation ullamco nisi equi.",
+                "title": "Four Paws",
+                "description": "Dein Hund und Du gemeinsam vor der Kamera",
                 "included": {
-                    "i": "Anreise",
-                    "ii": "Shooting",
-                    "iii": "Nachbearbeitung",
-                    "iv": "Druck"
+                    "i": "Vorberatung",
+                    "ii": "Anfahrt von 15 km",
+                    "iii": "90 Minuten Shooting",
+                    "iv": "30 bearbeitete Bilder"
                 },
-                "price": "150€"
+                "price": "175,00 €"
             }            
         }
     }
