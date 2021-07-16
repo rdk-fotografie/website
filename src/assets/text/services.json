@@ -44,77 +44,7 @@
             }
         },
         "dog": {
-            "basic": {
-                "title": "Soulmates",
-                "description": "Ob Freunde, Partner oder Geschwister - Ein Shooting zu zweit lohnt sich immer!",
-                "included": {
-                    "i": "Vorberatung",
-                    "ii": "Anfahrt von 15 km",
-                    "iii": "30-60 Minuten Shooting",
-                    "iv": "8 bearbeitete Bilder"
-                },
-                "price": "85,00 €"
-            },
-            "standard": {
-                 "title": "Soulmates",
-                "description": "Ob Freunde, Partner oder Geschwister - Ein Shooting zu zweit lohnt sich immer!",
-                "included": {
-                    "i": "Vorberatung",
-                    "ii": "Anfahrt von 15 km",
-                    "iii": "90 Minuten Shooting",
-                    "iv": "30 bearbeitete Bilder"
-                },
-                "price": "200,00 €"
-            },
-            "premium": {
-                "title": "Soulmates",
-                "description": "Ob Freunde, Partner oder Geschwister - Ein Shooting zu zweit lohnt sich immer!",
-                "included": {
-                    "i": "Vorberatung",
-                    "ii": "Anfahrt von 15 km",
-                    "iii": "90 Minuten Shooting",
-                    "iv": "50 bearbeitete Bilder"
-                },
-                "price": "250,00 €"
-            }
-        },
-        "soulmate": {
-            "basic": {
-                "title": "Our little Family",
-                "description": "Ihr könnt Euer Familienglück gar nicht in Worte fassen? Bilder sagen mehr als 1000 Worte. Das Shooting ist für 3 Personen ausgelegt, jede weitere Person 15,00 €.",
-                "included": {
-                    "i": "Vorberatung",
-                    "ii": "Anfahrt von 15 km",
-                    "iii": "30-60 Minuten Shooting",
-                    "iv": "8 bearbeitete Bilder"
-                },
-                "price": "100,00 €"
-            },
-            "standard": {
-                "title": "Our little Family",
-                "description": "Ihr könnt Euer Familienglück gar nicht in Worte fassen? Bilder sagen mehr als 1000 Worte. Das Shooting ist für 3 Personen ausgelegt, jede weitere Person 15,00 €.",
-                "included": {
-                    "i": "Vorberatung",
-                    "ii": "Anfahrt von 15 km",
-                    "iii": "90 Minuten Shooting",
-                    "iv": "30 bearbeitete Bilder"
-                },
-                "price": "250,00 €"
-            },
-            "premium": {
-                  "title": "Our little Family",
-                "description": "Ihr könnt Euer Familienglück gar nicht in Worte fassen? Bilder sagen mehr als 1000 Worte. Das Shooting ist für 3 Personen ausgelegt, jede weitere Person 15,00 €.",
-                "included": {
-                    "i": "Vorberatung",
-                    "ii": "Anfahrt von 15 km",
-                    "iii": "90 Minuten Shooting",
-                    "iv": "50 bearbeitete Bilder"
-                },
-                "price": "300,00 €"
-            }
-        },
-        "family": {
-            "basic": {
+           "basic": {
                 "title": "Four Paws",
                 "description": "Ob klein, ob groß, ob jung, ob alt - eins haben Hunde alle gemeinsam: Sie sind wunderschön. In diesem Shooting steht Dein Vierbeiner im Mittelpunkt.",
                 "included": {
@@ -147,6 +77,76 @@
                 },
                 "price": "175,00 €"
             }            
+        },
+        "soulmate": {
+             "basic": {
+                "title": "Soulmates",
+                "description": "Ob Freunde, Partner oder Geschwister - Ein Shooting zu zweit lohnt sich immer!",
+                "included": {
+                    "i": "Vorberatung",
+                    "ii": "Anfahrt von 15 km",
+                    "iii": "30-60 Minuten Shooting",
+                    "iv": "8 bearbeitete Bilder"
+                },
+                "price": "85,00 €"
+            },
+            "standard": {
+                 "title": "Soulmates",
+                "description": "Ob Freunde, Partner oder Geschwister - Ein Shooting zu zweit lohnt sich immer!",
+                "included": {
+                    "i": "Vorberatung",
+                    "ii": "Anfahrt von 15 km",
+                    "iii": "90 Minuten Shooting",
+                    "iv": "30 bearbeitete Bilder"
+                },
+                "price": "200,00 €"
+            },
+            "premium": {
+                "title": "Soulmates",
+                "description": "Ob Freunde, Partner oder Geschwister - Ein Shooting zu zweit lohnt sich immer!",
+                "included": {
+                    "i": "Vorberatung",
+                    "ii": "Anfahrt von 15 km",
+                    "iii": "90 Minuten Shooting",
+                    "iv": "50 bearbeitete Bilder"
+                },
+                "price": "250,00 €"
+            } 
+        },
+        "family": {
+           "basic": {
+                "title": "Our little Family",
+                "description": "Ihr könnt Euer Familienglück gar nicht in Worte fassen? Bilder sagen mehr als 1000 Worte. Das Shooting ist für 3 Personen ausgelegt, jede weitere Person 15,00 €.",
+                "included": {
+                    "i": "Vorberatung",
+                    "ii": "Anfahrt von 15 km",
+                    "iii": "30-60 Minuten Shooting",
+                    "iv": "8 bearbeitete Bilder"
+                },
+                "price": "100,00 €"
+            },
+            "standard": {
+                "title": "Our little Family",
+                "description": "Ihr könnt Euer Familienglück gar nicht in Worte fassen? Bilder sagen mehr als 1000 Worte. Das Shooting ist für 3 Personen ausgelegt, jede weitere Person 15,00 €.",
+                "included": {
+                    "i": "Vorberatung",
+                    "ii": "Anfahrt von 15 km",
+                    "iii": "90 Minuten Shooting",
+                    "iv": "30 bearbeitete Bilder"
+                },
+                "price": "250,00 €"
+            },
+            "premium": {
+                  "title": "Our little Family",
+                "description": "Ihr könnt Euer Familienglück gar nicht in Worte fassen? Bilder sagen mehr als 1000 Worte. Das Shooting ist für 3 Personen ausgelegt, jede weitere Person 15,00 €.",
+                "included": {
+                    "i": "Vorberatung",
+                    "ii": "Anfahrt von 15 km",
+                    "iii": "90 Minuten Shooting",
+                    "iv": "50 bearbeitete Bilder"
+                },
+                "price": "300,00 €"
+            }
         }
     }
 }
