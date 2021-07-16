@@ -11,7 +11,7 @@
         "portraits": {
             "basic": {
                 "title": "Just Me",
-                "description": "Du möchtest schöne Einzelportraits von Dir? Dann ist dieses Paket genau das Richtige für dich!",
+                "description": "Du möchtest schöne Einzelportraits von Dir? Dann ist dieses Paket genau das Richtige für Dich!",
                 "included": {
                     "i": "Vorberatung",
                     "ii": "Anfahrt von 15 km",
@@ -22,7 +22,7 @@
             },
             "standard": {
                  "title": "Just Me",
-                "description": "Du möchtest schöne Einzelportraits von Dir? Dann ist dieses Paket genau das Richtige für dich!",
+                "description": "Du möchtest schöne Einzelportraits von Dir? Dann ist dieses Paket genau das Richtige für Dich!",
                 "included": {
                     "i": "Vorberatung",
                     "ii": "Anfahrt von 15 km",
@@ -33,7 +33,7 @@
             },
             "premium": {
                  "title": "Just Me",
-                "description": "Du möchtest schöne Einzelportraits von Dir? Dann ist dieses Paket genau das Richtige für dich!",
+                "description": "Du möchtest schöne Einzelportraits von Dir? Dann ist dieses Paket genau das Richtige für Dich!",
                 "included": {
                     "i": "Vorberatung",
                     "ii": "Anfahrt von 15 km",
@@ -81,7 +81,7 @@
         "soulmate": {
             "basic": {
                 "title": "Our little Family",
-                "description": "Ihr könnt Euer Familienglück gar nicht in Worte fassen? Bilder sagen mehr als 1000 Worte. <br> Ein Shooting für 3 Personen, jede weitere Person 15,00 €",
+                "description": "Ihr könnt Euer Familienglück gar nicht in Worte fassen? Bilder sagen mehr als 1000 Worte. Das Shooting ist für 3 Personen ausgelegt, jede weitere Person 15,00 €.",
                 "included": {
                     "i": "Vorberatung",
                     "ii": "Anfahrt von 15 km",
@@ -92,7 +92,7 @@
             },
             "standard": {
                 "title": "Our little Family",
-                "description": "Ihr könnt Euer Familienglück gar nicht in Worte fassen? Bilder sagen mehr als 1000 Worte. Ein Shooting für 3 Personen, jede weitere Person 15,00 €",
+                "description": "Ihr könnt Euer Familienglück gar nicht in Worte fassen? Bilder sagen mehr als 1000 Worte. Das Shooting ist für 3 Personen ausgelegt, jede weitere Person 15,00 €.",
                 "included": {
                     "i": "Vorberatung",
                     "ii": "Anfahrt von 15 km",
@@ -103,7 +103,7 @@
             },
             "premium": {
                   "title": "Our little Family",
-                "description": "Ihr könnt Euer Familienglück gar nicht in Worte fassen? Bilder sagen mehr als 1000 Worte. Ein Shooting für 3 Personen, jede weitere Person 15,00 €",
+                "description": "Ihr könnt Euer Familienglück gar nicht in Worte fassen? Bilder sagen mehr als 1000 Worte. Das Shooting ist für 3 Personen ausgelegt, jede weitere Person 15,00 €.",
                 "included": {
                     "i": "Vorberatung",
                     "ii": "Anfahrt von 15 km",
@@ -116,7 +116,7 @@
         "family": {
             "basic": {
                 "title": "Four Paws",
-                "description": "Für gewöhnlich ist Dein Vierbeiner der Mittelpunkt in Deinem Leben, heute ist er der Mittelpunkt im Shooting",
+                "description": "Ob klein, ob groß, ob jung, ob alt - eins haben Hunde alle gemeinsam: Sie sind wunderschön. In diesem Shooting steht Dein Vierbeiner im Mittelpunkt.",
                 "included": {
                     "i": "Vorberatung",
                     "ii": "Anfahrt von 15 km",
@@ -127,7 +127,7 @@
             },
             "standard": {
                "title": "Four Paws",
-                "description": "Für gewöhnlich ist Dein Hund der Mittelpunkt in Deinem Leben, heute ist er der Mittelpunkt im Shooting",
+                "description": "Ob klein, ob groß, ob jung, ob alt - eins haben Hunde alle gemeinsam: Sie sind wunderschön. In diesem Shooting steht Dein Vierbeiner im Mittelpunkt..",
                 "included": {
                     "i": "Vorberatung",
                     "ii": "Anfahrt von 15 km",
@@ -138,7 +138,7 @@
             },
             "premium": {
                 "title": "Four Paws",
-                "description": "Dein Hund und Du gemeinsam vor der Kamera",
+                "description": "Wenn du mit Deinem Hund gemeinsam vor die Kamera möchtest, hast Du hier gefunden, was Du suchst.",
                 "included": {
                     "i": "Vorberatung",
                     "ii": "Anfahrt von 15 km",
