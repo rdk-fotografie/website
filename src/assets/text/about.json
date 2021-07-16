@@ -1,9 +1,10 @@
 {
     "title": "Über mich",
-    "headline": "Hallo, ich bin Franzi",
-    "lines": {
-        "i": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tristique diam sapien, sit amet maximus urna aliquam sit amet. Fusce tortor orci, convallis eget pulvinar molestie, efficitur id urna.Sed at felis dictum, vulputate mauris eget, facilisis eros. Nullam interdum pulvinar ornare. Duis molestie tortor ut leo viverra, eget semper ligula consequat.",
-        "ii": "Phasellus ut efficitur sapien, nec commodo mi. Donec euismod tellus vel neque vehicula, id cursus velit consequat. Donec tortor libero, semper sed sagittis blandit, commodo sit amet lorem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla odio lorem, laoreet a elementum tristique, viverra ac erat. Mauris sollicitudin sem quis dui eleifend vehicula.",
-        "iii": "Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Proin vitae diam diam. In porta elementum fermentum. Donec ac egestas nisl."
+    "column1": {
+        "headline": "Hallo, ich bin Franzi",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tristique diam sapien, sit amet maximus urna aliquam sit amet. Fusce tortor orci, convallis eget pulvinar molestie, efficitur id urna.Sed at felis dictum, vulputate mauris eget, facilisis eros. Nullam interdum pulvinar ornare. Duis molestie tortor ut leo viverra, eget semper ligula consequat."    },
+    "column2": {
+        "headline":"Hallo, ich bin auch Franzi",
+        "text": "Phasellus ut efficitur sapien, nec commodo mi. Donec euismod tellus vel neque vehicula, id cursus velit consequat. Donec tortor libero, semper sed sagittis blandit, commodo sit amet lorem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla odio lorem, laoreet a elementum tristique, viverra ac erat. Mauris sollicitudin sem quis dui eleifend vehicula."
     }
 }

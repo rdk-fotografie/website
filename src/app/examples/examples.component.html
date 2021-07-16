@@ -6,13 +6,19 @@
         <section class="background">
           <div class="content-wrapper">
             <p class="content-title">{{text.i.title}}</p>
-            <p class="content-subtitle">{{text.i.subtitle}}</p>
+            <p class="content-subtitle">{{text.i.subtitle}}</p>    
           </div>
         </section>
         <section class="background">
           <div class="content-wrapper">
+            <button (click)="previousItem()" mat-icon-button class="previous-btn">
+              <mat-icon>arrow_drop_up</mat-icon>
+            </button>   
             <p class="content-title">{{text.ii.title}}</p>
             <p class="content-subtitle">{{text.ii.subtitle}}</p>
+            <button (click)="nextItem()" mat-icon-button  class="next-btn">
+              <mat-icon>arrow_drop_down</mat-icon>
+            </button>  
           </div>
         </section>
         <section class="background">

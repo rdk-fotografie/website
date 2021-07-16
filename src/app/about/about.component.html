@@ -5,14 +5,19 @@
       </div>
     </section>
 
-    <section class="ui-section-feature">
+    <section class="ui-section-feature" style="margin-top:0px">
         <div class="ui-layout-container">
-        <h1>{{text.headline}}</h1>
-        <p>{{text.lines.i}}</p>
-        <p>{{text.lines.ii}}</p>
-        <p>{{text.lines.iii}}</p>
+        <table width=100% cellspacing="80">
+          <tr>
+            <th width="50%"><h1>{{text.column1.headline}}</h1></th>
+            <th width="50%"><h1>{{text.column2.headline}}</h1></th>
+          </tr>
+          <tr valign="top">
+            <td><p>{{text.column1.text}}</p></td>
+            <td><p>{{text.column2.text}}</p></td>
+          </tr>
+        </table>
         </div>
         <img src="https://www.dropbox.com/s/u09kxfoxi3bphvr/profile.jpg?raw=1" class="subline-img">
-
       </section>
 </main>

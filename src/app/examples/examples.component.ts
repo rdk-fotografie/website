@@ -111,37 +111,37 @@ export class ExamplesComponent implements OnInit {
     if (this.ticking != true) {
       if (delta <= this.negScrollSensitivitySetting) {
         //Down scroll
-        this.ticking = true;
-        if (this.currentSlideNumber !== this.background.length - 1) {
-          this.currentSlideNumber++;
-          this.nextItem();
-          this.startDiashow();
-        }
-        this.slideDurationTimeout(this.slideDurationSetting);
+        this.nextItem();
       }
       if (delta >= this.scrollSensitivitySetting) {
         //Up scroll
-        this.ticking = true;
-        if (this.currentSlideNumber !== 0) {
-          this.currentSlideNumber--;
-        }
         this.previousItem();
-        this.startDiashow();
-        this.slideDurationTimeout(this.slideDurationSetting);
       }
     }
   }
 
   nextItem(): void {
-    var previousSlide = this.background[this.currentSlideNumber-1];
-    previousSlide.classList.remove("up-scroll")
-    previousSlide.classList.add("down-scroll");
+    this.ticking = true;
+    if (this.currentSlideNumber !== this.background.length - 1) {
+      this.currentSlideNumber++;
+      var previousSlide = this.background[this.currentSlideNumber-1];
+      previousSlide.classList.remove("up-scroll")
+      previousSlide.classList.add("down-scroll");
+      this.startDiashow();
+    }
+    this.slideDurationTimeout(this.slideDurationSetting);
   }
 
   previousItem(): void {
-    var currentSlide = this.background[this.currentSlideNumber];
-    currentSlide.classList.remove("down-scroll")
-    currentSlide.classList.add("up-scroll");
+    this.ticking = true;
+      if (this.currentSlideNumber !== 0) {
+        this.currentSlideNumber--;
+      }
+      var currentSlide = this.background[this.currentSlideNumber];
+      currentSlide.classList.remove("down-scroll")
+      currentSlide.classList.add("up-scroll");
+      this.startDiashow();
+      this.slideDurationTimeout(this.slideDurationSetting);
   }
 
   slideDurationTimeout(slideDuration): void {
