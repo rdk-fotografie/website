@@ -6,22 +6,25 @@
     </section>
 
     <section class="ui-section-feature" style="margin-top:0px">
-      <table class="desktop" width=100% cellspacing="80">
-        <tr>
-          <th width="50%"><h1>{{text.column1.headline}}</h1></th>
-          <th width="50%"><h1>{{text.column2.headline}}</h1></th>
-        </tr>
+      <table class="desktop" valign="top" width=100% cellspacing="80">
         <tr valign="top">
-          <td><p [innerHTML]="text.column1.text"></p></td>
-          <td><p [innerHTML]="text.column2.text"></p></td>
+          <td width="50%"><h1>{{text.column1.headline}}</h1>
+            <p [innerHTML]="text.column1.text">
+            <p [innerHTML]="text.column2.text">
+          </td>
+          <th width="50%">
+            <img src="https://www.dropbox.com/s/u09kxfoxi3bphvr/profile.jpg?raw=1" class="subline-img"><br>
+            <img src="https://www.dropbox.com/s/5x7zdi9qnrf05r2/profile2.jpg?raw=1" class="subline-img">
+          </th>
         </tr>
       </table>
       <table class="mobile" width=80% cellspacing="80">
         <tr><th width="50%"><h1>{{text.column1.headline}}</h1></th></tr>
         <tr><td><p [innerHTML]="text.column1.text"></p></td></tr>
-        <tr><th width="50%"><h1>{{text.column2.headline}}</h1></th></tr>
-        <tr><td><p [innerHTML]="text.column2.text"></p></td></tr>
+        <tr><td><p [innerHTML]="text.column2.text"></td></tr>
+        <tr><td><img width=100% src="https://www.dropbox.com/s/u09kxfoxi3bphvr/profile.jpg?raw=1" class="subline-img"></td></tr>
+        <tr><td><img width=100% src="https://www.dropbox.com/s/5x7zdi9qnrf05r2/profile2.jpg?raw=1" class="subline-img"></td></tr>
       </table>
-        <img src="https://www.dropbox.com/s/u09kxfoxi3bphvr/profile.jpg?raw=1" class="subline-img">
+        
       </section>
 </main>

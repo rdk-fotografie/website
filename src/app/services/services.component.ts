@@ -10,10 +10,11 @@ import services from '../../assets/text/services.json'
 export class ServicesComponent implements OnInit {
   text;
   package="standard";
-
+  shrinkHeader;
   constructor(private router: Router) { }
 
   ngOnInit(): void {
+    this.shrinkHeader=true;
     this.text=services;
   }
 

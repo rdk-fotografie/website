@@ -9,7 +9,7 @@
 $parallax-offset: 30vh;
 $content-offset: 40vh;
 $transition-speed: 1.2s;
-$slide-number: 4;
+$slide-number: 8;
 
 html, body {
   overflow: hidden;
@@ -50,8 +50,14 @@ html, body {
   &:nth-child(2) {
     background-image: url(https://www.dropbox.com/s/vmkaix9ev7bslko/2-1.jpg?raw=1);
   }
-  &:nth-child(3) {
+  /*&:nth-child(3) {
     background-image: url(https://www.dropbox.com/s/scsdvblhzygck0f/3-1.jpg?raw=1);
+  }*/
+  &:nth-child(3) {
+    background-image: url(https://www.dropbox.com/s/f4fmmf5hjezas0u/4-1.jpg?raw=1);
+  }
+  &:nth-child(4) {
+    background-color: #fff;
   }
 }
 

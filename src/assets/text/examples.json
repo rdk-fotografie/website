@@ -10,5 +10,13 @@
     "iii": {
         "title": "Portraits",
         "subtitle": "Lorem Ipsum dolor sit amet. Und das alles inklusive Nachbearbeitung. Scroll weiter für Beispiele"
+    },
+    "iv": {
+        "title": "Portraits",
+        "subtitle": "Lorem Ipsum dolor sit amet. Und das alles inklusive Nachbearbeitung. Scroll weiter für Beispiele"
+    },
+    "precompare": {
+        "title": "Weiter wischen...",
+        "subtitle": "um vorher nachher Vergleiche zu sehen"
     }
 }

@@ -28,21 +28,35 @@ export class ExamplesComponent implements OnInit {
   imagesToPreload=["https://www.dropbox.com/s/eo5ii7qh80uat2h/1-1.jpg?raw=1", 
   "https://www.dropbox.com/s/2i4zs45rwjosqnl/1-2.jpg?raw=1", 
   "https://www.dropbox.com/s/06tanq8mrzv14vv/1-3.jpg?raw=1",
+  "https://www.dropbox.com/s/0b56s9lareuknh7/1-4.jpg?raw=1",
   "https://www.dropbox.com/s/vmkaix9ev7bslko/2-1.jpg?raw=1", 
   "https://www.dropbox.com/s/w9cv0a5mnb8p31o/2-2.jpg?raw=1", 
   "https://www.dropbox.com/s/hjofjokn4h5h9nt/2-3.jpg?raw=1",
+  "https://www.dropbox.com/s/09sn5vgx4liqeml/2-4.jpg?raw=1",
   "https://www.dropbox.com/s/scsdvblhzygck0f/3-1.jpg?raw=1", 
   "https://www.dropbox.com/s/wyg54r8uapszdnr/3-2.jpg?raw=1", 
   "https://www.dropbox.com/s/yofnqozvezkjsnp/3-3.jpg?raw=1",
-  "https://www.dropbox.com/s/n5yrhkjrj7n8e4y/before1.png?raw=1",
-  "https://www.dropbox.com/s/apsstqsefeelau2/after1.png?raw=1",
-  "https://www.dropbox.com/s/js4zhlenttb5asm/before2.png?raw=1",
-  "https://www.dropbox.com/s/txwhxutogzhdwk0/after2.png?raw=1"]
+  "https://www.dropbox.com/s/f4fmmf5hjezas0u/4-1.jpg?raw=1",
+  "https://www.dropbox.com/s/qriahe4bhypvsl5/4-2.jpg?raw=1",
+  "https://www.dropbox.com/s/rgyu9nl4lyankit/4-3.jpg?raw=1",
+  "https://www.dropbox.com/s/wsy7t64f0t7u7oh/4-4.jpg?raw=1",
+  "https://www.dropbox.com/s/g8pci5lgbkejkzc/before1.jpg?raw=1",
+  "https://www.dropbox.com/s/78dauy3hdex5eoi/after1.jpg?raw=1",
+  "https://www.dropbox.com/s/agn8apfa23bizn9/before2.jpg?raw=1",
+  "https://www.dropbox.com/s/2jrg0k6x76mbowm/after2.jpg?raw=1",
+  "https://www.dropbox.com/s/72il4oevcdh6wr6/before3.jpg?raw=1",
+  "https://www.dropbox.com/s/4xhd9o147iatf1g/after3.jpg?raw=1",
+  "https://www.dropbox.com/s/msw7zjtbl8pqmqc/before4.jpg?raw=1",
+  "https://www.dropbox.com/s/eil0swo2d5w2478/after4.jpg?raw=1",
+  "https://www.dropbox.com/s/542fut7eu8mb7fu/before5.jpg?raw=1",
+  "https://www.dropbox.com/s/atw525xm4y6nzr5/after5.jpg?raw=1"
+]
 
   images=[
-    ["https://www.dropbox.com/s/eo5ii7qh80uat2h/1-1.jpg?raw=1", "https://www.dropbox.com/s/2i4zs45rwjosqnl/1-2.jpg?raw=1", "https://www.dropbox.com/s/06tanq8mrzv14vv/1-3.jpg?raw=1"],
-    ["https://www.dropbox.com/s/vmkaix9ev7bslko/2-1.jpg?raw=1", "https://www.dropbox.com/s/w9cv0a5mnb8p31o/2-2.jpg?raw=1", "https://www.dropbox.com/s/hjofjokn4h5h9nt/2-3.jpg?raw=1"],
-    ["https://www.dropbox.com/s/scsdvblhzygck0f/3-1.jpg?raw=1", "https://www.dropbox.com/s/wyg54r8uapszdnr/3-2.jpg?raw=1", "https://www.dropbox.com/s/yofnqozvezkjsnp/3-3.jpg?raw=1"]
+    ["https://www.dropbox.com/s/eo5ii7qh80uat2h/1-1.jpg?raw=1", "https://www.dropbox.com/s/2i4zs45rwjosqnl/1-2.jpg?raw=1", "https://www.dropbox.com/s/06tanq8mrzv14vv/1-3.jpg?raw=1", "https://www.dropbox.com/s/0b56s9lareuknh7/1-4.jpg?raw=1"],
+    ["https://www.dropbox.com/s/vmkaix9ev7bslko/2-1.jpg?raw=1", "https://www.dropbox.com/s/w9cv0a5mnb8p31o/2-2.jpg?raw=1", "https://www.dropbox.com/s/hjofjokn4h5h9nt/2-3.jpg?raw=1", "https://www.dropbox.com/s/09sn5vgx4liqeml/2-4.jpg?raw=1"],
+    //["https://www.dropbox.com/s/scsdvblhzygck0f/3-1.jpg?raw=1", "https://www.dropbox.com/s/wyg54r8uapszdnr/3-2.jpg?raw=1", "https://www.dropbox.com/s/yofnqozvezkjsnp/3-3.jpg?raw=1"],
+    ["https://www.dropbox.com/s/f4fmmf5hjezas0u/4-1.jpg?raw=1", "https://www.dropbox.com/s/qriahe4bhypvsl5/4-2.jpg?raw=1", "https://www.dropbox.com/s/rgyu9nl4lyankit/4-3.jpg?raw=1", "https://www.dropbox.com/s/wsy7t64f0t7u7oh/4-4.jpg?raw=1"]
   ];
   dataLoaded=false;
   footerEnabled=false;
