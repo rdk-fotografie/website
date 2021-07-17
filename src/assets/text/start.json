@@ -22,19 +22,19 @@
     },
     "diashow": {
         "about": {
-            "title": "Über mich"
+            "title": ""
         },
         "example": {
-            "title": "Beispielfotos"
+            "title": ""
         },
         "service": {
-            "title": "Leistungen"
+            "title": ""
         },
         "contact": {
-            "title": "Kontakt"
+            "title": ""
         },
         "impress": {
-            "title": "Impressum"
+            "title": ""
         }
     },
     "feedback": {
