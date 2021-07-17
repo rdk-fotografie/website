@@ -1,11 +1,5 @@
-import { DOCUMENT } from '@angular/common';
-import { interval } from 'rxjs';
-import { Component, ElementRef, Inject, OnInit, ViewChild } from '@angular/core';
-import { ImageService } from '../image.service';
-import { HttpClient } from '@angular/common/http';
-import { delay, tap } from 'rxjs/operators';
+import { Component, OnInit } from '@angular/core';
 import examples from '../../assets/text/examples.json'
-import { TransitionCheckState } from '@angular/material';
 
 @Component({
   selector: 'app-examples',
@@ -67,7 +61,7 @@ export class ExamplesComponent implements OnInit {
   notFirst=false;
   notLast=true;
 
-  constructor(@Inject(DOCUMENT) document, private http: HttpClient) {
+  constructor() {
     for (var i = 0; i < this.imagesToPreload.length; i++) {
       this.preloadedImages[i] = new Image();
       this.preloadedImages[i].src = this.imagesToPreload[i];

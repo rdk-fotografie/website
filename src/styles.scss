@@ -50,9 +50,9 @@ TABLE OF CONTENT
   /* COLOR PALETTE */
 
   --ui-color-n-000: #fff;
-  --ui-color-n-050: #f5f5f5;
+  --ui-color-n-050: #e9e0c8;
   --ui-color-n-100: #ebebeb;
-  --ui-color-n-300: #aeaeae;
+  --ui-color-n-300: #d1bc8a;
   --ui-color-n-500: #353535;
   --ui-color-n-700: #282828;
   --ui-color-n-900: #1a1a1a;
@@ -1106,4 +1106,5 @@ div label[for=ui-component-toggle__standard] {
 .ui-section-hero h1 {
   font-family: 'Big Shoulders Display', cursive;
   font-size: 70px;
+  color: #fff;
 }
