@@ -34,6 +34,8 @@ TABLE OF CONTENT
 1.0 VARIABLE
 --------------------------------------------------------------*/
 @import '~@angular/material/prebuilt-themes/indigo-pink.css';
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100&family=Dancing+Script&display=swap');
+
 
 :root {
 
@@ -1101,4 +1103,9 @@ div label[for=ui-component-toggle__standard] {
     padding-top: 3rem;
   }
 
+}
+
+.ui-section-hero h1 {
+  font-family: 'Big Shoulders Display', cursive;
+  font-size: 70px;
 }

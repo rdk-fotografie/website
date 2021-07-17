@@ -24,7 +24,7 @@
     <!-- IMAGE -->
           <div id="modelImg" alt="#" class="ui-image-half-left"></div>
           <!-- FEATURE -->
-          <div *ngIf="package=='basic'">
+          <div class="package" *ngIf="package=='basic'">
             <h2>{{text.services.portraits.basic.title}}</h2>
             <p class="ui-text-intro"[innerHTML]="text.services.portraits.basic.description"></p>
             <ul class="ui-component-list ui-component-list-feature ui-layout-grid">
@@ -36,7 +36,7 @@
             <p class="price">{{text.services.portraits.basic.price}}</p>
             <div class="button-wrapper"><button type="button" class="ui-component-button-normal" (click)="navigateToPage('contact', 'portrait')">Hier anfragen</button></div>
           </div>
-          <div *ngIf="package=='standard'">
+          <div class="package"*ngIf="package=='standard'">
             <h2>{{text.services.portraits.standard.title}}</h2>
             <p class="ui-text-intro"[innerHTML]="text.services.portraits.standard.description"></p>
             <ul class="ui-component-list ui-component-list-feature ui-layout-grid">
@@ -48,7 +48,7 @@
             <p class="price">{{text.services.portraits.standard.price}}</p>
             <div class="button-wrapper"><button type="button" class="ui-component-button-normal" (click)="navigateToPage('contact', 'portrait')">Hier anfragen</button></div>
           </div>
-          <div *ngIf="package=='premium'">
+          <div class="package" *ngIf="package=='premium'">
             <h2>{{text.services.portraits.premium.title}}</h2>
             <p class="ui-text-intro"[innerHTML]="text.services.portraits.premium.description"></p>
             <ul class="ui-component-list ui-component-list-feature ui-layout-grid">
@@ -68,7 +68,7 @@
       <div class="ui-layout-container">
         <div class="ui-section-feature__layout ui-layout-grid ui-layout-grid-2">
           <!-- FEATURE -->
-          <div *ngIf="package=='basic'">
+          <div class="package" *ngIf="package=='basic'">
             <h2>{{text.services.dog.basic.title}}</h2>
             <p class="ui-text-intro"[innerHTML]="text.services.dog.basic.description"></p>
             <ul class="ui-component-list ui-component-list-feature ui-layout-grid">
@@ -80,7 +80,7 @@
             <p class="price">{{text.services.dog.basic.price}}</p>
             <div class="button-wrapper"><button type="button" class="ui-component-button-normal" (click)="navigateToPage('contact', 'dog')">Hier anfragen</button></div>
           </div>
-          <div *ngIf="package=='standard'">
+          <div class="package" *ngIf="package=='standard'">
             <h2>{{text.services.dog.standard.title}}</h2>
             <p class="ui-text-intro"[innerHTML]="text.services.dog.standard.description"></p>
             <ul class="ui-component-list ui-component-list-feature ui-layout-grid">
@@ -92,7 +92,7 @@
             <p class="price">{{text.services.dog.standard.price}}</p>
             <div class="button-wrapper"><button type="button" class="ui-component-button-normal" (click)="navigateToPage('contact', 'dog')">Hier anfragen</button></div>
           </div>
-          <div *ngIf="package=='premium'">
+          <div class="package" *ngIf="package=='premium'">
             <h2>{{text.services.dog.premium.title}}</h2>
             <p class="ui-text-intro"[innerHTML]="text.services.dog.premium.description"></p>
             <ul class="ui-component-list ui-component-list-feature ui-layout-grid">
@@ -116,7 +116,7 @@
           <!-- IMAGE -->
           <div id="friendsImg" alt="#" class="ui-image-half-left"></div>
           <!-- FEATURE -->
-          <div *ngIf="package=='basic'">
+          <div class="package" *ngIf="package=='basic'">
             <h2>{{text.services.soulmate.basic.title}}</h2>
             <p class="ui-text-intro"[innerHTML]="text.services.soulmate.basic.description"></p>
             <ul class="ui-component-list ui-component-list-feature ui-layout-grid">
@@ -128,7 +128,7 @@
             <p class="price">{{text.services.soulmate.basic.price}}</p>
             <div class="button-wrapper"><button type="button" class="ui-component-button-normal" (click)="navigateToPage('contact', 'friends')">Hier anfragen</button></div>
           </div>
-          <div *ngIf="package=='standard'">
+          <div class="package" *ngIf="package=='standard'">
             <h2>{{text.services.soulmate.standard.title}}</h2>
             <p class="ui-text-intro"[innerHTML]="text.services.soulmate.standard.description"></p>
             <ul class="ui-component-list ui-component-list-feature ui-layout-grid">
@@ -140,7 +140,7 @@
             <p class="price">{{text.services.soulmate.standard.price}}</p>
             <div class="button-wrapper"><button type="button" class="ui-component-button-normal" (click)="navigateToPage('contact', 'friends')">Hier anfragen</button></div>
           </div>
-          <div *ngIf="package=='premium'">
+          <div class="package" *ngIf="package=='premium'">
             <h2>{{text.services.soulmate.premium.title}}</h2>
             <p class="ui-text-intro"[innerHTML]="text.services.soulmate.premium.description"></p>
             <ul class="ui-component-list ui-component-list-feature ui-layout-grid">
@@ -160,7 +160,7 @@
       <div class="ui-layout-container">
         <div class="ui-section-feature__layout ui-layout-grid ui-layout-grid-2">
           <!-- FEATURE -->
-          <div *ngIf="package=='basic'">
+          <div class="package" *ngIf="package=='basic'">
             <h2>{{text.services.family.basic.title}}</h2>
             <p class="ui-text-intro"[innerHTML]="text.services.family.basic.description"></p>
             <ul class="ui-component-list ui-component-list-feature ui-layout-grid">
@@ -172,7 +172,7 @@
             <p class="price">{{text.services.family.basic.price}}</p>
             <div class="button-wrapper"><button type="button" class="ui-component-button-normal" (click)="navigateToPage('contact', 'family')">Hier anfragen</button></div>
           </div>
-          <div *ngIf="package=='standard'">
+          <div class="package" *ngIf="package=='standard'">
             <h2>{{text.services.family.standard.title}}</h2>
             <p class="ui-text-intro"[innerHTML]="text.services.family.standard.description"></p>
             <ul class="ui-component-list ui-component-list-feature ui-layout-grid">
@@ -184,7 +184,7 @@
             <p class="price">{{text.services.family.standard.price}}</p>
             <div class="button-wrapper"><button type="button" class="ui-component-button-normal" (click)="navigateToPage('contact', 'family')">Hier anfragen</button></div>
           </div>
-          <div *ngIf="package=='premium'">
+          <div class="package" *ngIf="package=='premium'">
             <h2>{{text.services.family.premium.title}}</h2>
             <p class="ui-text-intro"[innerHTML]="text.services.family.premium.description"></p>
             <ul class="ui-component-list ui-component-list-feature ui-layout-grid">
@@ -203,6 +203,6 @@
     </section>
     <section class="ui-section-special">
 
-      <p style="text-align:center" [innerHTML]="text.footer></p>
+      <p style="text-align:center" [innerHTML]="text.footer"></p>
       </section>
 </main>

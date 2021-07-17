@@ -88,8 +88,6 @@ export class ExamplesComponent implements OnInit {
   }
 
   throttle(func, delay) {
-    var timer = 0;
-
     return function():void {
         var context = this,
             args = [].slice.call(arguments);
