@@ -2,11 +2,11 @@
     <section class="ui-section-hero">
       <div class="ui-layout-container">
         <section id="slider" (mouseover)="stopSliderSubscriber()" (mouseout)="startSliderSubscriber()">
-            <input type="radio" name="slider" id="s1" value="s1" [ngModel]="sliderValue" (click)="handleSliderClick(0)">
-            <input type="radio" name="slider" id="s2" value="s2" [ngModel]="sliderValue" (click)="handleSliderClick(1)">
-            <input type="radio" name="slider" id="s3" value="s3" [ngModel]="sliderValue" (click)="handleSliderClick(2)">
-            <input type="radio" name="slider" id="s4" value="s4" [ngModel]="sliderValue" (click)="handleSliderClick(3)">
-            <input type="radio" name="slider" id="s5" value="s5" [ngModel]="sliderValue" (click)="handleSliderClick(4)">
+            <input type="radio" name="slider" id="s1" value="s1" [ngModel]="sliderValue">
+            <input type="radio" name="slider" id="s2" value="s2" [ngModel]="sliderValue">
+            <input type="radio" name="slider" id="s3" value="s3" [ngModel]="sliderValue">
+            <input type="radio" name="slider" id="s4" value="s4" [ngModel]="sliderValue">
+            <input type="radio" name="slider" id="s5" value="s5" [ngModel]="sliderValue">
             <label for="s1" id="slide1" data-rellax-speed="-4">
                 <h1>{{text.diashow.service.title}}</h1>
             </label>
