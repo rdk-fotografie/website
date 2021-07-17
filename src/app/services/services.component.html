@@ -1,12 +1,14 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
 <main role="main">
     <section class="ui-section-hero hero-img">
       <div class="ui-layout-container">
         <h1>{{text.title}}</h1>
       </div>
     </section>
-    <section class="ui-section-special">
+    <section class="ui-section-special" style="display: unset">
 
-    <h3 style="text-align:center">{{text.teaser}}</h3>
+    <h3 style="text-align:center" [innerHTML]="text.teaser"></h3>
     <input (change)="changePackage('basic')" type="radio" name="toggle" id="ui-component-toggle__basic">
     <input (change)="changePackage('standard')" type="radio" name="toggle" id="ui-component-toggle__standard" checked>
     <input (change)="changePackage('premium')" type="radio" name="toggle" id="ui-component-toggle__premium">
@@ -24,7 +26,7 @@
           <!-- FEATURE -->
           <div *ngIf="package=='basic'">
             <h2>{{text.services.portraits.basic.title}}</h2>
-            <p class="ui-text-intro">{{text.services.portraits.basic.description}}</p>
+            <p class="ui-text-intro"[innerHTML]="text.services.portraits.basic.description"></p>
             <ul class="ui-component-list ui-component-list-feature ui-layout-grid">
               <li class="ui-component-list--item ui-component-list--item-check">{{text.services.portraits.basic.included.i}}</li>
               <li class="ui-component-list--item ui-component-list--item-check">{{text.services.portraits.basic.included.ii}}</li>
@@ -36,7 +38,7 @@
           </div>
           <div *ngIf="package=='standard'">
             <h2>{{text.services.portraits.standard.title}}</h2>
-            <p class="ui-text-intro">{{text.services.portraits.standard.description}}</p>
+            <p class="ui-text-intro"[innerHTML]="text.services.portraits.standard.description"></p>
             <ul class="ui-component-list ui-component-list-feature ui-layout-grid">
               <li class="ui-component-list--item ui-component-list--item-check">{{text.services.portraits.standard.included.i}}</li>
               <li class="ui-component-list--item ui-component-list--item-check">{{text.services.portraits.standard.included.ii}}</li>
@@ -48,7 +50,7 @@
           </div>
           <div *ngIf="package=='premium'">
             <h2>{{text.services.portraits.premium.title}}</h2>
-            <p class="ui-text-intro">{{text.services.portraits.premium.description}}</p>
+            <p class="ui-text-intro"[innerHTML]="text.services.portraits.premium.description"></p>
             <ul class="ui-component-list ui-component-list-feature ui-layout-grid">
               <li class="ui-component-list--item ui-component-list--item-check">{{text.services.portraits.premium.included.i}}</li>
               <li class="ui-component-list--item ui-component-list--item-check">{{text.services.portraits.premium.included.ii}}</li>
@@ -68,7 +70,7 @@
           <!-- FEATURE -->
           <div *ngIf="package=='basic'">
             <h2>{{text.services.dog.basic.title}}</h2>
-            <p class="ui-text-intro">{{text.services.dog.basic.description}}</p>
+            <p class="ui-text-intro"[innerHTML]="text.services.dog.basic.description"></p>
             <ul class="ui-component-list ui-component-list-feature ui-layout-grid">
               <li class="ui-component-list--item ui-component-list--item-check">{{text.services.dog.basic.included.i}}</li>
               <li class="ui-component-list--item ui-component-list--item-check">{{text.services.dog.basic.included.ii}}</li>
@@ -80,7 +82,7 @@
           </div>
           <div *ngIf="package=='standard'">
             <h2>{{text.services.dog.standard.title}}</h2>
-            <p class="ui-text-intro">{{text.services.dog.standard.description}}</p>
+            <p class="ui-text-intro"[innerHTML]="text.services.dog.standard.description"></p>
             <ul class="ui-component-list ui-component-list-feature ui-layout-grid">
               <li class="ui-component-list--item ui-component-list--item-check">{{text.services.dog.standard.included.i}}</li>
               <li class="ui-component-list--item ui-component-list--item-check">{{text.services.dog.standard.included.ii}}</li>
@@ -92,7 +94,7 @@
           </div>
           <div *ngIf="package=='premium'">
             <h2>{{text.services.dog.premium.title}}</h2>
-            <p class="ui-text-intro">{{text.services.dog.premium.description}}</p>
+            <p class="ui-text-intro"[innerHTML]="text.services.dog.premium.description"></p>
             <ul class="ui-component-list ui-component-list-feature ui-layout-grid">
               <li class="ui-component-list--item ui-component-list--item-check">{{text.services.dog.premium.included.i}}</li>
               <li class="ui-component-list--item ui-component-list--item-check">{{text.services.dog.premium.included.ii}}</li>
@@ -116,7 +118,7 @@
           <!-- FEATURE -->
           <div *ngIf="package=='basic'">
             <h2>{{text.services.soulmate.basic.title}}</h2>
-            <p class="ui-text-intro">{{text.services.soulmate.basic.description}}</p>
+            <p class="ui-text-intro"[innerHTML]="text.services.soulmate.basic.description"></p>
             <ul class="ui-component-list ui-component-list-feature ui-layout-grid">
               <li class="ui-component-list--item ui-component-list--item-check">{{text.services.soulmate.basic.included.i}}</li>
               <li class="ui-component-list--item ui-component-list--item-check">{{text.services.soulmate.basic.included.ii}}</li>
@@ -128,7 +130,7 @@
           </div>
           <div *ngIf="package=='standard'">
             <h2>{{text.services.soulmate.standard.title}}</h2>
-            <p class="ui-text-intro">{{text.services.soulmate.standard.description}}</p>
+            <p class="ui-text-intro"[innerHTML]="text.services.soulmate.standard.description"></p>
             <ul class="ui-component-list ui-component-list-feature ui-layout-grid">
               <li class="ui-component-list--item ui-component-list--item-check">{{text.services.soulmate.standard.included.i}}</li>
               <li class="ui-component-list--item ui-component-list--item-check">{{text.services.soulmate.standard.included.ii}}</li>
@@ -140,7 +142,7 @@
           </div>
           <div *ngIf="package=='premium'">
             <h2>{{text.services.soulmate.premium.title}}</h2>
-            <p class="ui-text-intro">{{text.services.soulmate.premium.description}}</p>
+            <p class="ui-text-intro"[innerHTML]="text.services.soulmate.premium.description"></p>
             <ul class="ui-component-list ui-component-list-feature ui-layout-grid">
               <li class="ui-component-list--item ui-component-list--item-check">{{text.services.soulmate.premium.included.i}}</li>
               <li class="ui-component-list--item ui-component-list--item-check">{{text.services.soulmate.premium.included.ii}}</li>
@@ -160,7 +162,7 @@
           <!-- FEATURE -->
           <div *ngIf="package=='basic'">
             <h2>{{text.services.family.basic.title}}</h2>
-            <p class="ui-text-intro">{{text.services.family.basic.description}}</p>
+            <p class="ui-text-intro"[innerHTML]="text.services.family.basic.description"></p>
             <ul class="ui-component-list ui-component-list-feature ui-layout-grid">
               <li class="ui-component-list--item ui-component-list--item-check">{{text.services.family.basic.included.i}}</li>
               <li class="ui-component-list--item ui-component-list--item-check">{{text.services.family.basic.included.ii}}</li>
@@ -172,7 +174,7 @@
           </div>
           <div *ngIf="package=='standard'">
             <h2>{{text.services.family.standard.title}}</h2>
-            <p class="ui-text-intro">{{text.services.family.standard.description}}</p>
+            <p class="ui-text-intro"[innerHTML]="text.services.family.standard.description"></p>
             <ul class="ui-component-list ui-component-list-feature ui-layout-grid">
               <li class="ui-component-list--item ui-component-list--item-check">{{text.services.family.standard.included.i}}</li>
               <li class="ui-component-list--item ui-component-list--item-check">{{text.services.family.standard.included.ii}}</li>
@@ -184,7 +186,7 @@
           </div>
           <div *ngIf="package=='premium'">
             <h2>{{text.services.family.premium.title}}</h2>
-            <p class="ui-text-intro">{{text.services.family.premium.description}}</p>
+            <p class="ui-text-intro"[innerHTML]="text.services.family.premium.description"></p>
             <ul class="ui-component-list ui-component-list-feature ui-layout-grid">
               <li class="ui-component-list--item ui-component-list--item-check">{{text.services.family.premium.included.i}}</li>
               <li class="ui-component-list--item ui-component-list--item-check">{{text.services.family.premium.included.ii}}</li>

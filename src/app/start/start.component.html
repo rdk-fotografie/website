@@ -20,7 +20,7 @@
                 <h1>{{text.diashow.contact.title}}</h1>
             </label>
             <label for="s5" id="slide5">
-                <h1>{{text.diashow.social.title}}</h1>
+                <h1>{{text.diashow.impress.title}}</h1>
             </label>
         </section>
       </div>
@@ -42,7 +42,7 @@
           <!-- FEATURE -->
           <div>
             <h2>{{text.about.title}}</h2>
-            <p class="ui-text-intro">{{text.about.description}}</p>
+            <p class="ui-text-intro"[innerHTML]="text.about.description"></p>
             <div class="button-wrapper"><button type="button" class="ui-component-button-normal" (click)="navigateToPage(1)">{{text.about.more}}</button></div>
         </div>
         </div>
@@ -50,7 +50,7 @@
             <!-- FEATURE -->
             <div>
               <h2>{{text.examples.title}}</h2>
-              <p class="ui-text-intro">{{text.examples.description}}</p>
+              <p class="ui-text-intro"[innerHTML]="text.examples.description"></p>
               <div class="button-wrapper"><button type="button" class="ui-component-button-normal" (click)="navigateToPage(2)">{{text.examples.more}}</button></div>
             </div>
             <!-- IMAGE -->
@@ -62,14 +62,14 @@
           <!-- FEATURE -->
           <div>
             <h2>{{text.services.title}}</h2>
-            <p class="ui-text-intro">{{text.services.description}}</p>
+            <p class="ui-text-intro"[innerHTML]="text.services.description"></p>
             <ul class="ui-component-list ui-component-list-feature ui-layout-grid">
               <li class="ui-component-list--item ui-component-list--item-check">{{text.services.features.i}}</li>
               <li class="ui-component-list--item ui-component-list--item-check">{{text.services.features.ii}}</li>
               <li class="ui-component-list--item ui-component-list--item-check">{{text.services.features.iii}}</li>
               <li class="ui-component-list--item ui-component-list--item-check">{{text.services.features.iv}}</li>
             </ul>
-            <div class="button-wrapper"><button type="button" class="ui-component-button-normal" (click)="navigateToPage(3)">{{text.services.more}}</button></div>
+            <div class="button-wrapper"><button type="button" class="ui-component-button-normal" (click)="navigateToPage(0)">{{text.services.more}}</button></div>
           </div>
           
         </div>
@@ -80,12 +80,12 @@
         <div class="ui-section-testimonial__layout ui-layout-grid ui-layout-grid-2">
           <div class="ui-layout-column-4">
             <img src="https://res.cloudinary.com/uisual/image/upload/assets/icons/avatar.svg" alt="#" class="ui-section-testimonial--avatar">
-            <p class="ui-section-testimonial--quote ui-text-intro">{{text.feedback.i.quote}}</p>
+            <p class="ui-section-testimonial--quote ui-text-intro"[innerHTML]="text.feedback.i.quote"></p>
             <p class="ui-section-testimonial--author"><strong>{{text.feedback.i.name}}</strong>
           </div>
           <div class="ui-layout-column-4">
             <img src="https://res.cloudinary.com/uisual/image/upload/assets/icons/avatar.svg" alt="#" class="ui-section-testimonial--avatar">
-            <p class="ui-section-testimonial--quote ui-text-intro">{{text.feedback.ii.quote}}</p>
+            <p class="ui-section-testimonial--quote ui-text-intro"[innerHTML]="text.feedback.ii.quote"></p>
             <p class="ui-section-testimonial--author"><strong>{{text.feedback.ii.name}}</strong>
           </div>
         </div>

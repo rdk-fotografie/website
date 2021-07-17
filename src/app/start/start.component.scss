@@ -120,3 +120,12 @@
   .button-wrapper {
       text-align:center;
   }
+
+
+.ui-section-feature__layout:last-of-type {
+  margin-top:0rem;
+}
+.ui-section-feature__layout {
+  row-gap: 0;
+  margin-bottom:3rem;
+}

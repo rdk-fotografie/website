@@ -5,6 +5,7 @@ import { ImageService } from '../image.service';
 import { HttpClient } from '@angular/common/http';
 import { delay, tap } from 'rxjs/operators';
 import examples from '../../assets/text/examples.json'
+import { TransitionCheckState } from '@angular/material';
 
 @Component({
   selector: 'app-examples',
@@ -48,6 +49,9 @@ export class ExamplesComponent implements OnInit {
   text;
   mousewheelEvent;
   mouseMoveEvent;
+
+  notFirst=false;
+  notLast=true;
 
   constructor(@Inject(DOCUMENT) document, private http: HttpClient) {
     for (var i = 0; i < this.imagesToPreload.length; i++) {
@@ -122,6 +126,7 @@ export class ExamplesComponent implements OnInit {
 
   nextItem(): void {
     this.ticking = true;
+    this.notFirst=true;
     if (this.currentSlideNumber !== this.background.length - 1) {
       this.currentSlideNumber++;
       var previousSlide = this.background[this.currentSlideNumber-1];
@@ -129,13 +134,20 @@ export class ExamplesComponent implements OnInit {
       previousSlide.classList.add("down-scroll");
       this.startDiashow();
     }
+    if (this.currentSlideNumber == this.background.length - 1) {
+      this.notLast=false;
+    }
     this.slideDurationTimeout(this.slideDurationSetting);
   }
 
   previousItem(): void {
     this.ticking = true;
+    this.notLast=true;
       if (this.currentSlideNumber !== 0) {
         this.currentSlideNumber--;
+      } 
+      if (this.currentSlideNumber == 0) {
+        this.notFirst=false;
       }
       var currentSlide = this.background[this.currentSlideNumber];
       currentSlide.classList.remove("down-scroll")

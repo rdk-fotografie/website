@@ -2,47 +2,45 @@
 
 <div *ngIf="dataLoaded">
   <main role="main">
+    <button *ngIf="notFirst" (click)="previousItem()" mat-icon-button class="previous-btn">
+      <mat-icon>arrow_drop_up</mat-icon>
+    </button>  
     <div class="container">
         <section class="background">
           <div class="content-wrapper">
             <p class="content-title">{{text.i.title}}</p>
-            <p class="content-subtitle">{{text.i.subtitle}}</p>    
+            <p class="content-subtitle">{{text.i.subtitle}}</p>     
           </div>
         </section>
         <section class="background">
           <div class="content-wrapper">
-            <button (click)="previousItem()" mat-icon-button class="previous-btn">
-              <mat-icon>arrow_drop_up</mat-icon>
-            </button>   
             <p class="content-title">{{text.ii.title}}</p>
             <p class="content-subtitle">{{text.ii.subtitle}}</p>
-            <button (click)="nextItem()" mat-icon-button  class="next-btn">
-              <mat-icon>arrow_drop_down</mat-icon>
-            </button>  
           </div>
         </section>
         <section class="background">
           <div class="content-wrapper">
             <p class="content-title">{{text.iii.title}}</p>
             <p class="content-subtitle">{{text.iii.subtitle}}</p>
-          </div>
+          </div> 
         </section>
         <section class="background">
-
-          <img-comparison-slider>
-            <img slot="before" src="https://www.dropbox.com/s/n5yrhkjrj7n8e4y/before1.png?raw=1" />
-            <img slot="after" src="https://www.dropbox.com/s/apsstqsefeelau2/after1.png?raw=1" />
-          </img-comparison-slider>
+            <img-comparison-slider>
+              <img slot="before" src="https://www.dropbox.com/s/n5yrhkjrj7n8e4y/before1.png?raw=1" />
+              <img slot="after" src="https://www.dropbox.com/s/apsstqsefeelau2/after1.png?raw=1" />
+            </img-comparison-slider>
         </section>
 
         <section class="background">
-
-          <img-comparison-slider>
-            <img slot="before" src="https://www.dropbox.com/s/js4zhlenttb5asm/before2.png?raw=1" />
-            <img slot="after" src="https://www.dropbox.com/s/txwhxutogzhdwk0/after2.png?raw=1" />
-          </img-comparison-slider>
+            <img-comparison-slider>
+              <img slot="before" src="https://www.dropbox.com/s/js4zhlenttb5asm/before2.png?raw=1" />
+              <img slot="after" src="https://www.dropbox.com/s/txwhxutogzhdwk0/after2.png?raw=1" />
+            </img-comparison-slider>
         </section>
        
     </div>
+    <button *ngIf="notLast" (click)="nextItem()" mat-icon-button  class="next-btn">
+      <mat-icon>arrow_drop_down</mat-icon>
+    </button>
 </main>
 </div>

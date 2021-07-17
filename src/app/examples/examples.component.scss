@@ -112,14 +112,7 @@ html, body {
 }
 
 img-comparison-slider {
-  position: fixed;
-  top: 0px;
   width: 100%;
-  margin-bottom:10px;
-  height:200vh+$parallax-offset;
-  --divider-width: 2px;
-  --divider-color: #c0c0c0;
-  --handle-opacity: 0.3;
 }
 
 img-comparison-slider img {
@@ -128,6 +121,25 @@ img-comparison-slider img {
   height:100vh+$parallax-offset;
 }
 
+.previous-btn {
+  position: absolute;
+  top: 10%;
+  left: calc(50% - 50px);
+  color:#ddd;
+  z-index:10;
+  width:100px;
+}
 .mat-icon {
-  font-size:50px;
+  font-size:100px;
+  vertical-align: middle;
+  display: flex;
+    align-items: center;
+}
+.next-btn {
+  position: absolute;
+  bottom: 3%;
+  left: calc(50% - 50px);
+  color:#ddd;
+  z-index:10;
+  width:100px;
 }

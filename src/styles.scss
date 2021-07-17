@@ -496,12 +496,14 @@ div label[for=ui-component-toggle__standard] {
   padding-bottom: 5rem;
   background-color: var(--ui-color-background-secondary);
   margin-top: 5rem;
+  padding-top: 2rem;
 }
 
 .ui-section-feature:nth-child(2n) {
   padding-bottom: 5rem;
   background-color: var(--ui-color-background-primary);
   margin-top: 5rem;
+  padding-top: 2rem;
 }
 
 .ui-section-feature__layout { row-gap: var(--ui-gap-feature); }
@@ -1100,4 +1102,3 @@ div label[for=ui-component-toggle__standard] {
   }
 
 }
-
