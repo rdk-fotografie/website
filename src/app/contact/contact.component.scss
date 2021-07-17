@@ -13,3 +13,11 @@
  .tp-container > * {
     width: 100%;
  }
+
+ ::ng-deep .mat-checkbox-layout {
+  white-space: normal !important;
+}
+
+.control-buttons {
+  margin-top:25px;
+}
