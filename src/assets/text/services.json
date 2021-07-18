@@ -1,7 +1,7 @@
 {
     "title": "Leistungen",
-    "teaser": "Hast Du Lust deine Lieblingsmomente festzuhalten? Dann wähle jetzt aus individuellen Shooting-Paketen zu Deinem Wunschpreis.",
-    "footer": "Bei Anfahrten über 15 km erfolgt ein Aufschlag von 0,30 € für jeden weiteren Kilometer.<br>Weitere Bilder sind zu den kostenfreien Bildern der Parkete gegen einen Aufpreis hinzubuchbar.",
+    "teaser": "Hast Du Lust, Deine Lieblingsmomente festzuhalten? Dann wähle jetzt aus individuellen Shooting-Paketen zu Deinem Wunschpreis.",
+    "footer": "Bei Anfahrten über der angegebenen Kilometerzahl erfolgt ein Aufschlag von 0,30 € für jeden weiteren Kilometer.<br>Weitere Bilder sind zu den kostenfreien Bildern der Parkete gegen einen Aufpreis hinzubuchbar.",
     "packages": {
         "basic": "Basic",
         "standard": "Standard",
@@ -25,7 +25,7 @@
                 "description": "Du möchtest schöne Einzelportraits von Dir? Dann ist dieses Paket genau das Richtige für Dich!",
                 "included": {
                     "i": "Vorberatung",
-                    "ii": "Anfahrt von 15 km",
+                    "ii": "Anfahrt von 30 km",
                     "iii": "90 Minuten Shooting",
                     "iv": "15 bearbeitete Bilder"
                 },
@@ -36,7 +36,7 @@
                 "description": "Du möchtest schöne Einzelportraits von Dir? Dann ist dieses Paket genau das Richtige für Dich!",
                 "included": {
                     "i": "Vorberatung",
-                    "ii": "Anfahrt von 15 km",
+                    "ii": "Anfahrt von 30 km",
                     "iii": "90 Minuten Shooting",
                     "iv": "30 bearbeitete Bilder"
                 },
@@ -60,7 +60,7 @@
                 "description": "Ob klein, ob groß, ob jung, ob alt - eins haben Hunde alle gemeinsam: Sie sind wunderschön. In diesem Shooting steht Dein Vierbeiner im Mittelpunkt.",
                 "included": {
                     "i": "Vorberatung",
-                    "ii": "Anfahrt von 15 km",
+                    "ii": "Anfahrt von 30 km",
                     "iii": "90 Minuten Shooting",
                     "iv": "10 bearbeitete Bilder"
                 },
@@ -71,7 +71,7 @@
                 "description": "Wenn du mit Deinem Hund gemeinsam vor der Kamera stehen möchtest, hast Du hier gefunden, was Du suchst.",
                 "included": {
                     "i": "Vorberatung",
-                    "ii": "Anfahrt von 15 km",
+                    "ii": "Anfahrt von 30 km",
                     "iii": "90 Minuten Shooting",
                     "iv": "30 bearbeitete Bilder"
                 },
@@ -95,7 +95,7 @@
                 "description": "Ob Freunde, Paare oder Geschwister - Ein Shooting zu zweit lohnt sich immer!",
                 "included": {
                     "i": "Vorberatung",
-                    "ii": "Anfahrt von 15 km",
+                    "ii": "Anfahrt von 30 km",
                     "iii": "90 Minuten Shooting",
                     "iv": "30 bearbeitete Bilder"
                 },
@@ -106,7 +106,7 @@
                 "description": "Ob Freunde, Paare oder Geschwister - Ein Shooting zu zweit lohnt sich immer!",
                 "included": {
                     "i": "Vorberatung",
-                    "ii": "Anfahrt von 15 km",
+                    "ii": "Anfahrt von 30 km",
                     "iii": "90 Minuten Shooting",
                     "iv": "50 bearbeitete Bilder"
                 },
@@ -130,7 +130,7 @@
                 "description": "Ihr könnt Euer Familienglück gar nicht in Worte fassen? Bilder sagen mehr als 1000 Worte. Das Shooting ist für 3 Personen ausgelegt, jede weitere Person kostet 15,00 €.",
                 "included": {
                     "i": "Vorberatung",
-                    "ii": "Anfahrt von 15 km",
+                    "ii": "Anfahrt von 30 km",
                     "iii": "90 Minuten Shooting",
                     "iv": "30 bearbeitete Bilder"
                 },
@@ -141,7 +141,7 @@
                 "description": "Ihr könnt Euer Familienglück gar nicht in Worte fassen? Bilder sagen mehr als 1000 Worte. Das Shooting ist für 3 Personen ausgelegt, jede weitere Person kostet 15,00 €.",
                 "included": {
                     "i": "Vorberatung",
-                    "ii": "Anfahrt von 15 km",
+                    "ii": "Anfahrt von 30 km",
                     "iii": "90 Minuten Shooting",
                     "iv": "50 bearbeitete Bilder"
                 },

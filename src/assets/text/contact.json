@@ -3,7 +3,7 @@
     "labels": {
         "name": "Vollständiger Name",
         "email": "E-Mail Adresse",
-        "package": "Packet",
+        "package": "Paket",
         "concern": "Anliegen",
         "message": "Nachricht",
         "conditions": "Ich stimme den Datenschutzbestimmungen zu",
