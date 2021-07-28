@@ -71,7 +71,7 @@ TABLE OF CONTENT
 
   --ui-color-typography-heading: var(--ui-color-n-500);
   --ui-color-typography-body   : var(--ui-color-n-900);
-  --ui-color-typography-note   : var(--ui-color-n-300);
+  --ui-color-typography-note   : var(--ui-color-n-500);
   --ui-color-typography-button : var(--ui-color-n-000);
 
   /*------------------------------------------------------------
@@ -464,6 +464,7 @@ div label[for=ui-component-toggle__standard] {
   padding-bottom: 5rem;
   padding-top: 5rem;
   text-align: center;
+  background-size:cover;
 }
 
 .ui-section-hero__layout { row-gap: var(--ui-gap-hero); }
