@@ -44,7 +44,7 @@ export class ContactComponent implements OnInit {
   }
 
   onSubmit(value) {
-    if(value.terms==true) {
+    if(value.terms==true && this.formGroup.valid) {
       const headers = new HttpHeaders().set('Content-Type', 'application/json; charset=utf-8');
       this.http.post<any>('https://submit-form.com/JR2hmhGc', JSON.stringify(value), {headers: headers}).subscribe(data => {
       });

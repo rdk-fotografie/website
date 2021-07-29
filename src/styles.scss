@@ -273,7 +273,21 @@ svg {
 }
 
 .ui-component-button-big,
-.ui-component-button-normal { padding: .75rem 1rem .875rem; }
+.ui-component-button-normal { 
+  background-color: var(--ui-color-n-300);
+  font-weight: bold;
+  color: #fff;
+}
+
+.bigger-button { 
+  padding: 0.75rem 1rem 0.875rem !important;
+  font-size: 20px;
+}
+
+.decent { 
+  background-color: #fff;
+  color: var(--ui-color-typography-body);
+}
 
 .ui-component-button-big { width: 100%; }
 
@@ -630,6 +644,20 @@ div label[for=ui-component-toggle__standard] {
 .ui-section-footer--links {
   margin-bottom: 0;
   margin-right: auto;
+}
+
+.ui-mobile-image {
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: top; 
+  background-size: cover;
+  width:20em;
+  height:15em;
+  border-width:6px;
+  border-style: solid;
+  border-color: #aeaeae;
+  margin-right: auto;
+  margin-bottom: 20px;
 }
 
 /*--------------------------------------------------------------
@@ -1042,6 +1070,14 @@ div label[for=ui-component-toggle__standard] {
     border-width:12px;
     border-style: solid;
     border-color: #aeaeae;
+  }
+
+  .ui-mobile-image {
+    width: 0px;
+    height: 0px;
+    margin: 0 0 0 0;
+    border: 0px;
+    visibility: hidden;
   }
 
   .ui-image-half-right {

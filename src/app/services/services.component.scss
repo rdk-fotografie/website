@@ -66,6 +66,12 @@
     top:10%;
 }
 
+@media screen and (max-width: 75rem) {
+    .package {
+        width: 90vw;
+    }
+}
+
 .package h2 {
     font-family: 'Big Shoulders Display', cursive;
     font-size: 40px;

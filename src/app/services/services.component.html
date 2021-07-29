@@ -20,11 +20,12 @@
     </section>
     <section class="ui-section-special">
       <div class="ui-layout-container">
-        <div class="ui-section-feature__layout ui-layout-grid ui-layout-grid-2">
+        <div class="ui-section-feature__layout ui-layout-grid ui-layout-grid-2 left">
     <!-- IMAGE -->
           <div id="modelImg" alt="#" class="ui-image-half-left"></div>
           <!-- FEATURE -->
           <div class="package" *ngIf="package=='basic'">
+            <div id="modelImg" alt="#" class="ui-mobile-image"></div>
             <h2>{{text.services.portraits.basic.title}}</h2>
             <p class="ui-text-intro"[innerHTML]="text.services.portraits.basic.description"></p>
             <ul class="ui-component-list ui-component-list-feature ui-layout-grid">
@@ -34,9 +35,10 @@
               <li class="ui-component-list--item ui-component-list--item-check">{{text.services.portraits.basic.included.iv}}</li>
             </ul>
             <p class="price">{{text.services.portraits.basic.price}}</p>
-            <div class="button-wrapper"><button type="button" class="ui-component-button-normal" (click)="navigateToPage('contact', 'portrait')">Hier anfragen</button></div>
+            <div class="button-wrapper"><button type="button" mat-raised-button class="mat-raised-button mat-button-base ui-component-button-normal" (click)="navigateToPage('contact', 'portrait')">Hier anfragen</button></div>
           </div>
           <div class="package"*ngIf="package=='standard'">
+            <div id="modelImg" alt="#" class="ui-mobile-image"></div>
             <h2>{{text.services.portraits.standard.title}}</h2>
             <p class="ui-text-intro"[innerHTML]="text.services.portraits.standard.description"></p>
             <ul class="ui-component-list ui-component-list-feature ui-layout-grid">
@@ -46,9 +48,10 @@
               <li class="ui-component-list--item ui-component-list--item-check">{{text.services.portraits.standard.included.iv}}</li>
             </ul>
             <p class="price">{{text.services.portraits.standard.price}}</p>
-            <div class="button-wrapper"><button type="button" class="ui-component-button-normal" (click)="navigateToPage('contact', 'portrait')">Hier anfragen</button></div>
+            <div class="button-wrapper"><button type="button" mat-raised-button class="mat-raised-button mat-button-base ui-component-button-normal" (click)="navigateToPage('contact', 'portrait')">Hier anfragen</button></div>
           </div>
           <div class="package" *ngIf="package=='premium'">
+            <div id="modelImg" alt="#" class="ui-mobile-image"></div>
             <h2>{{text.services.portraits.premium.title}}</h2>
             <p class="ui-text-intro"[innerHTML]="text.services.portraits.premium.description"></p>
             <ul class="ui-component-list ui-component-list-feature ui-layout-grid">
@@ -58,7 +61,7 @@
               <li class="ui-component-list--item ui-component-list--item-check">{{text.services.portraits.premium.included.iv}}</li>
             </ul>
             <p class="price">{{text.services.portraits.premium.price}}</p>
-            <div class="button-wrapper"><button type="button" class="ui-component-button-normal" (click)="navigateToPage('contact', 'portrait')">Hier anfragen</button></div>
+            <div class="button-wrapper"><button type="button" mat-raised-button class="mat-raised-button mat-button-base ui-component-button-normal" (click)="navigateToPage('contact', 'portrait')">Hier anfragen</button></div>
           </div>
           </div>
       </div>
@@ -70,6 +73,7 @@
 
           <!-- FEATURE -->
           <div class="package" *ngIf="package=='basic'">
+            <div id="friendsImg" alt="#" class="ui-mobile-image"></div>
             <h2>{{text.services.soulmate.basic.title}}</h2>
             <p class="ui-text-intro"[innerHTML]="text.services.soulmate.basic.description"></p>
             <ul class="ui-component-list ui-component-list-feature ui-layout-grid">
@@ -79,9 +83,10 @@
               <li class="ui-component-list--item ui-component-list--item-check">{{text.services.soulmate.basic.included.iv}}</li>
             </ul>
             <p class="price">{{text.services.soulmate.basic.price}}</p>
-            <div class="button-wrapper"><button type="button" class="ui-component-button-normal" (click)="navigateToPage('contact', 'friends')">Hier anfragen</button></div>
+            <div class="button-wrapper"><button type="button" mat-raised-button class="mat-raised-button mat-button-base ui-component-button-normal decent" (click)="navigateToPage('contact', 'friends')">Hier anfragen</button></div>
           </div>
           <div class="package" *ngIf="package=='standard'">
+            <div id="friendsImg" alt="#" class="ui-mobile-image"></div>
             <h2>{{text.services.soulmate.standard.title}}</h2>
             <p class="ui-text-intro"[innerHTML]="text.services.soulmate.standard.description"></p>
             <ul class="ui-component-list ui-component-list-feature ui-layout-grid">
@@ -91,9 +96,10 @@
               <li class="ui-component-list--item ui-component-list--item-check">{{text.services.soulmate.standard.included.iv}}</li>
             </ul>
             <p class="price">{{text.services.soulmate.standard.price}}</p>
-            <div class="button-wrapper"><button type="button" class="ui-component-button-normal" (click)="navigateToPage('contact', 'friends')">Hier anfragen</button></div>
+            <div class="button-wrapper"><button type="button" mat-raised-button class="mat-raised-button mat-button-base ui-component-button-normal decent" (click)="navigateToPage('contact', 'friends')">Hier anfragen</button></div>
           </div>
           <div class="package" *ngIf="package=='premium'">
+            <div id="friendsImg" alt="#" class="ui-mobile-image"></div>
             <h2>{{text.services.soulmate.premium.title}}</h2>
             <p class="ui-text-intro"[innerHTML]="text.services.soulmate.premium.description"></p>
             <ul class="ui-component-list ui-component-list-feature ui-layout-grid">
@@ -103,7 +109,7 @@
               <li class="ui-component-list--item ui-component-list--item-check">{{text.services.soulmate.premium.included.iv}}</li>
             </ul>
             <p class="price">{{text.services.soulmate.premium.price}}</p>
-            <div class="button-wrapper"><button type="button" class="ui-component-button-normal" (click)="navigateToPage('contact', 'friends')">Hier anfragen</button></div>
+            <div class="button-wrapper"><button type="button" mat-raised-button class="mat-raised-button mat-button-base ui-component-button-normal decent" (click)="navigateToPage('contact', 'friends')">Hier anfragen</button></div>
           </div>
           <!-- IMAGE -->
           <div id="friendsImg" alt="#" class="ui-image-half-left"></div>
@@ -118,6 +124,7 @@
           <div id="familyImg" alt="#" class="ui-image-half-left"></div>
           <!-- FEATURE -->
           <div class="package" *ngIf="package=='basic'">
+            <div id="familyImg" alt="#" class="ui-mobile-image"></div>
             <h2>{{text.services.family.basic.title}}</h2>
             <p class="ui-text-intro"[innerHTML]="text.services.family.basic.description"></p>
             <ul class="ui-component-list ui-component-list-feature ui-layout-grid">
@@ -127,9 +134,10 @@
               <li class="ui-component-list--item ui-component-list--item-check">{{text.services.family.basic.included.iv}}</li>
             </ul>
             <p class="price">{{text.services.family.basic.price}}</p>
-            <div class="button-wrapper"><button type="button" class="ui-component-button-normal" (click)="navigateToPage('contact', 'family')">Hier anfragen</button></div>
+            <div class="button-wrapper"><button type="button" mat-raised-button class="mat-raised-button mat-button-base ui-component-button-normal" (click)="navigateToPage('contact', 'family')">Hier anfragen</button></div>
           </div>
           <div class="package" *ngIf="package=='standard'">
+            <div id="familyImg" alt="#" class="ui-mobile-image"></div>
             <h2>{{text.services.family.standard.title}}</h2>
             <p class="ui-text-intro"[innerHTML]="text.services.family.standard.description"></p>
             <ul class="ui-component-list ui-component-list-feature ui-layout-grid">
@@ -139,9 +147,10 @@
               <li class="ui-component-list--item ui-component-list--item-check">{{text.services.family.standard.included.iv}}</li>
             </ul>
             <p class="price">{{text.services.family.standard.price}}</p>
-            <div class="button-wrapper"><button type="button" class="ui-component-button-normal" (click)="navigateToPage('contact', 'family')">Hier anfragen</button></div>
+            <div class="button-wrapper"><button type="button" mat-raised-button class="mat-raised-button mat-button-base ui-component-button-normal" (click)="navigateToPage('contact', 'family')">Hier anfragen</button></div>
           </div>
           <div class="package" *ngIf="package=='premium'">
+            <div id="familyImg" alt="#" class="ui-mobile-image"></div>
             <h2>{{text.services.family.premium.title}}</h2>
             <p class="ui-text-intro"[innerHTML]="text.services.family.premium.description"></p>
             <ul class="ui-component-list ui-component-list-feature ui-layout-grid">
@@ -151,7 +160,7 @@
               <li class="ui-component-list--item ui-component-list--item-check">{{text.services.family.premium.included.iv}}</li>
             </ul>
             <p class="price">{{text.services.family.premium.price}}</p>
-            <div class="button-wrapper"><button type="button" class="ui-component-button-normal" (click)="navigateToPage('contact', 'family')">Hier anfragen</button></div>
+            <div class="button-wrapper"><button type="button" mat-raised-button class="mat-raised-button mat-button-base ui-component-button-normal" (click)="navigateToPage('contact', 'family')">Hier anfragen</button></div>
           </div>
         </div>
       </div>
@@ -162,6 +171,7 @@
         <div class="ui-section-feature__layout ui-layout-grid ui-layout-grid-2">
           <!-- FEATURE -->
           <div class="package" *ngIf="package=='basic'">
+            <div id="dogImg" alt="#" class="ui-mobile-image"></div>
             <h2>{{text.services.dog.basic.title}}</h2>
             <p class="ui-text-intro"[innerHTML]="text.services.dog.basic.description"></p>
             <ul class="ui-component-list ui-component-list-feature ui-layout-grid">
@@ -171,9 +181,10 @@
               <li class="ui-component-list--item ui-component-list--item-check">{{text.services.dog.basic.included.iv}}</li>
             </ul>
             <p class="price">{{text.services.dog.basic.price}}</p>
-            <div class="button-wrapper"><button type="button" class="ui-component-button-normal" (click)="navigateToPage('contact', 'dog')">Hier anfragen</button></div>
+            <div class="button-wrapper"><button type="button" mat-raised-button class="mat-raised-button mat-button-base ui-component-button-normal decent" (click)="navigateToPage('contact', 'dog')">Hier anfragen</button></div>
           </div>
           <div class="package" *ngIf="package=='standard'">
+            <div id="dogImg" alt="#" class="ui-mobile-image"></div>
             <h2>{{text.services.dog.standard.title}}</h2>
             <p class="ui-text-intro"[innerHTML]="text.services.dog.standard.description"></p>
             <ul class="ui-component-list ui-component-list-feature ui-layout-grid">
@@ -183,9 +194,10 @@
               <li class="ui-component-list--item ui-component-list--item-check">{{text.services.dog.standard.included.iv}}</li>
             </ul>
             <p class="price">{{text.services.dog.standard.price}}</p>
-            <div class="button-wrapper"><button type="button" class="ui-component-button-normal" (click)="navigateToPage('contact', 'dog')">Hier anfragen</button></div>
+            <div class="button-wrapper"><button type="button" mat-raised-button class="mat-raised-button mat-button-base ui-component-button-normal decent" (click)="navigateToPage('contact', 'dog')">Hier anfragen</button></div>
           </div>
           <div class="package" *ngIf="package=='premium'">
+            <div id="dogImg" alt="#" class="ui-mobile-image"></div>
             <h2>{{text.services.dog.premium.title}}</h2>
             <p class="ui-text-intro"[innerHTML]="text.services.dog.premium.description"></p>
             <ul class="ui-component-list ui-component-list-feature ui-layout-grid">
@@ -195,7 +207,7 @@
               <li class="ui-component-list--item ui-component-list--item-check">{{text.services.dog.premium.included.iv}}</li>
             </ul>
             <p class="price">{{text.services.dog.premium.price}}</p>
-            <div class="button-wrapper"><button type="button" class="ui-component-button-normal" (click)="navigateToPage('contact', 'dog')">Hier anfragen</button></div>
+            <div class="button-wrapper"><button type="button" mat-raised-button class="mat-raised-button mat-button-base ui-component-button-normal decent" (click)="navigateToPage('contact', 'dog')">Hier anfragen</button></div>
           </div>
           <!-- IMAGE -->
           <div id="dogImg" alt="#" class="ui-image-half-right"></div>

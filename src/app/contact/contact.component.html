@@ -38,7 +38,7 @@
             <mat-form-field appearance = "fill">
               <textarea rows="15" required formControlName="message" matInput placeholder = "{{text.labels.message}}"></textarea>
            </mat-form-field>
-           <mat-checkbox required formControlName="terms"><a href="privacy">{{text.labels.conditions}}</a></mat-checkbox>
+           <mat-checkbox  required formControlName="terms"><a href="privacy">{{text.labels.conditions}}</a></mat-checkbox>
            <div class="control-buttons">
             <button mat-raised-button  [disabled]="formGroup.value.terms!=true" class="submit-btn" (g-)="onSubmit(formGroup.value)">{{text.labels.submit}}</button>
           </div>
