@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, HostListener, OnInit } from '@angular/core';
 import examples from '../../assets/text/examples.json'
 
 @Component({
@@ -77,14 +77,16 @@ export class ExamplesComponent implements OnInit {
     header[0].classList.add("small-head");
     this.background = document.getElementsByClassName('background');
     this.throttle = this.throttle.bind(this);
-    this.mouseMoveEvent=this.throttle(this.parallaxScroll, 60);
-    window.addEventListener(this.mousewheelEvent, this.mouseMoveEvent, false);
     this.startDiashow();
+  }
+
+  @HostListener('mousewheel', ['$event'])
+  onWindowScroll(e: MouseEvent) {
+    this.throttle(60, e['wheelDelta']);
   }
 
   ngOnDestroy(): void {
     clearInterval(this.diashowInterval);
-    window.removeEventListener(this.mousewheelEvent, this.mouseMoveEvent, false);    
   }
 
   startDiashow() {
@@ -95,29 +97,16 @@ export class ExamplesComponent implements OnInit {
     }, this.diashowDelay)
   }
 
-  throttle(func, delay) {
-    return function():void {
-        var context = this,
-            args = [].slice.call(arguments);
-
-        clearTimeout(timer);
-        var timer = setTimeout(()=>{  
-            func.apply(context, args);
-        }, delay);
-    };
+  throttle(delay, yOffset) {
+    clearTimeout(timer);
+    var timer = setTimeout(()=>{  
+      this.parallaxScroll(yOffset);
+    }, delay);
   }
 
       // ------------- DETERMINE DELTA/SCROLL DIRECTION ------------- //
-  parallaxScroll = (evt): void => {
-    var delta;
-    if (this.isFirefox) {
-      delta = evt.detail * (-120);
-    } else if (this.isIe) {
-      delta = -evt.deltaY;
-    } else {
-      delta = evt.wheelDelta;
-    }
-
+  parallaxScroll = (delta): void => {
+    this.negScrollSensitivitySetting
     if (this.ticking != true) {
       if (delta <= this.negScrollSensitivitySetting) {
         //Down scroll
@@ -133,7 +122,9 @@ export class ExamplesComponent implements OnInit {
   nextItem(): void {
     this.ticking = true;
     this.notFirst=true;
+    console.log("tesasd")
     if (this.currentSlideNumber !== this.background.length - 1) {
+      console.log("yea")
       this.currentSlideNumber++;
       var previousSlide = this.background[this.currentSlideNumber-1];
       previousSlide.classList.remove("up-scroll")
