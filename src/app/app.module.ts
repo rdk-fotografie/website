@@ -29,7 +29,7 @@ import { ThanksComponent } from './thanks/thanks.component';
     ThanksComponent
   ],
   imports: [
-    BrowserModule,
+    BrowserModule.withServerTransition({ appId: 'serverApp' }),
     AppRoutingModule,
     FormsModule,
     ReactiveFormsModule,
