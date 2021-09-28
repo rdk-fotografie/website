@@ -13,6 +13,16 @@ export function app(): express.Express {
   const server = express();
   const distFolder = join(process.cwd(), 'dist/rdkFotografie/browser');
   const indexHtml = existsSync(join(distFolder, 'index.original.html')) ? 'index.original.html' : 'index';
+  const domino = require('domino');
+  const fs = require('fs');
+  const path = require('path');
+  const template = fs
+    .readFileSync(path.join('dist/rdkFotografie/browser', 'index.html')) //<--- REPLACE WITH YOUR APP NAME
+    .toString();
+  const window = domino.createWindow(template);
+  global['window'] = window;
+  global['document'] = window.document;
+  global['navigator'] = window.navigator;
 
   // Our Universal express-engine (found @ https://github.com/angular/universal/tree/master/modules/express-engine)
   server.engine('html', ngExpressEngine({
