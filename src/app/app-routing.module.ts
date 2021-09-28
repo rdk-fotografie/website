@@ -12,7 +12,7 @@ import { ThanksComponent } from './thanks/thanks.component';
 
 const routes: Routes = [
   {
-    path: 'start',
+    path: '',
     component: StartComponent,
   },
   {
@@ -46,7 +46,7 @@ const routes: Routes = [
   },
   {
     path: '**',
-    redirectTo: 'start'
+    redirectTo: ''
   }];
 
 @NgModule({
