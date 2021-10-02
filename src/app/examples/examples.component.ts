@@ -63,7 +63,7 @@ export class ExamplesComponent implements OnInit {
 
   constructor() {
     for (var i = 0; i < this.imagesToPreload.length; i++) {
-      this.preloadedImages[i] = new Image();
+      this.preloadedImages[i] = document.createElement('img');
       this.preloadedImages[i].src = this.imagesToPreload[i];
     }
     setTimeout(()=>{ }, 10000);    
