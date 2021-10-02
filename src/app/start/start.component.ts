@@ -1,7 +1,8 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Inject, OnInit } from '@angular/core';
 import { interval } from 'rxjs';
 import { Router } from '@angular/router';
 import start from '../../assets/text/start.json';
+import { DOCUMENT } from '@angular/common';
 
 @Component({
   selector: 'app-start',
@@ -19,9 +20,13 @@ export class StartComponent implements OnInit {
   sliderToRight=true;
   text;
 
-  constructor(private router: Router) { }
+  constructor(private router: Router, @Inject(DOCUMENT) private doc) { }
 
   ngOnInit(): void {
+    let link: HTMLLinkElement = this.doc.createElement('link');
+    link.setAttribute('rel', 'canonical');
+    this.doc.head.appendChild(link);
+    link.setAttribute('href', this.doc.URL);
     this.startSliderSubscriber();
     this.text=start;
   }
