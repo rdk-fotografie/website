@@ -7,7 +7,7 @@
 
   <section class="ui-section-feature">
       <div class="ui-layout-container">
-        <form [formGroup]="formGroup" (ngSubmit)="onSubmit(formGroup.value)">
+        <form name="contactFormNetlify" [formGroup]="formGroup" (ngSubmit)="onSubmit(formGroup.value)">
           <div class = "tp-container g-recaptcha" data-sitekey="6LduHcgbAAAAAGvWjugcbEpYOFZlhOzc7HIiqode">
             <mat-form-field appearance = "standard">
               <mat-label>{{text.labels.name}}</mat-label>
