@@ -68,6 +68,7 @@ export class ContactComponent implements OnInit {
   }
 
   private submitEntry(entry: HttpParams): Observable<any> {
+    console.log(entry)
     return this.http.post(
       '/',
       entry.toString(),
