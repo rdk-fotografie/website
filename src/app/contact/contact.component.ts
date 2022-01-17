@@ -87,7 +87,8 @@ export class ContactComponent implements OnInit {
       errMsg = `A server-side error occurred. Code: ${err.status}. Message: ${err.message}`;
     }
 
-    console.log(errMsg);
+    console.log(errMsg)
+    return throwError(errMsg);
   }
 
 }
