@@ -53,7 +53,9 @@ export class ContactComponent implements OnInit {
       });
       this.router.navigate(["thanks"])
     }*/
+    console.log("submit form")
     this.submitFeedback(value)
+    this.router.navigate(["thanks"])
   }
 
   submitFeedback(value): Observable<any> {
@@ -85,7 +87,7 @@ export class ContactComponent implements OnInit {
       errMsg = `A server-side error occurred. Code: ${err.status}. Message: ${err.message}`;
     }
 
-    return throwError(errMsg);
+    console.log(errMsg);
   }
 
 }
