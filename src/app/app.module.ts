@@ -15,6 +15,7 @@ import { ContactComponent } from './contact/contact.component';
 import { MatInputModule, MatOptionModule, MatSelectModule, MatIconModule, MatCheckboxModule, MatButtonModule } from '@angular/material';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ThanksComponent } from './thanks/thanks.component'; 
+import { MaintenanceComponent } from './maintenance/maintenance.component'; 
 
 @NgModule({
   declarations: [

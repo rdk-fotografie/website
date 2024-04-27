@@ -8,9 +8,14 @@ import { PrivacyComponent } from './privacy/privacy.component';
 import { ServicesComponent } from './services/services.component';
 import { StartComponent } from './start/start.component';
 import { ThanksComponent } from './thanks/thanks.component';
+import { MaintenanceComponent } from './maintenance/maintenance.component';
 
 
 const routes: Routes = [
+  {
+    path: '**',
+    component: MaintenanceComponent,
+  },
   {
     path: '',
     component: StartComponent,
